@@ -290,6 +290,11 @@ export const PACKAGES = [
   { slug: 'flask', displayName: 'flask', name: 'flask', ecosystem: 'pypi', repo: 'pallets/flask' },
   { slug: 'numpy', displayName: 'numpy', name: 'numpy', ecosystem: 'pypi', repo: 'numpy/numpy' },
   { slug: 'urllib3', displayName: 'urllib3', name: 'urllib3', ecosystem: 'pypi', repo: 'urllib3/urllib3' },
+  { slug: 'axios', displayName: 'axios', name: 'axios', ecosystem: 'npm', repo: 'axios/axios' },
+  { slug: 'vite', displayName: 'vite', name: 'vite', ecosystem: 'npm', repo: 'vitejs/vite' },
+  { slug: 'django', displayName: 'django', name: 'django', ecosystem: 'pypi', repo: 'django/django' },
+  { slug: 'fastapi', displayName: 'fastapi', name: 'fastapi', ecosystem: 'pypi', repo: 'fastapi/fastapi' },
+  { slug: 'pandas', displayName: 'pandas', name: 'pandas', ecosystem: 'pypi', repo: 'pandas-dev/pandas' },
 ];
 
 export { clamp, round, classifyLicense, severityRisk };
