@@ -18,6 +18,8 @@ source was missing — not that a project is fine.
 
 **Live:** https://unevil-warden-port2-production.up.railway.app/opensourcegraph/
 
+**Original home:** https://unevil-warden.github.io/unevil/opensourcegraph/ — my earlier GitHub account (unevil-warden), since retired; kept here as provenance.
+
 ---
 
 ## What it shows
