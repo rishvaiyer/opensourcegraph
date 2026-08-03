@@ -204,15 +204,50 @@ async function fetchGitHub(pkg) {
   return { last_commit_days: lastCommitDays, bus_factor: busFactor, repository };
 }
 
+// Download counts — npm's official downloads API and pypistats.org. Both are
+// key-free. pypistats rate-limits aggressively, so retry once with a pause and
+// treat the whole source as optional (null on failure — adoption is context,
+// not a gate).
+async function fetchDownloads(pkg) {
+  try {
+    if (pkg.ecosystem === 'npm') {
+      const j = await getJSON(`https://api.npmjs.org/downloads/point/last-month/${encodeURIComponent(pkg.name)}`);
+      if (j?.downloads == null) return null;
+      return { last_month: Number(j.downloads), source: 'npm downloads API' };
+    }
+    if (pkg.ecosystem === 'pypi') {
+      for (let attempt = 0; attempt < 2; attempt++) {
+        try {
+          const j = await getJSON(`https://pypistats.org/api/packages/${encodeURIComponent(pkg.name)}/recent`);
+          const n = j?.data?.last_month;
+          if (n == null) return null;
+          return { last_month: Number(n), source: 'pypistats.org' };
+        } catch (err) {
+          if (attempt === 0 && budgetLeft() > 5000) {
+            await new Promise((r) => setTimeout(r, 4000));
+          } else {
+            throw err;
+          }
+        }
+      }
+    }
+    return null;
+  } catch (err) {
+    console.warn(`  (downloads lookup failed for ${pkg.displayName}: ${err.message})`);
+    return null;
+  }
+}
+
 // Gather all facts for one package. Any individual source may come back null;
 // analyze.mjs lowers that sub-signal's confidence accordingly.
 async function gatherFacts(pkg) {
-  const [depsDev, vulns, eco, registry, gh] = await Promise.all([
+  const [depsDev, vulns, eco, registry, gh, downloads] = await Promise.all([
     fetchDepsDev(pkg),
     fetchOSV(pkg),
     fetchEcosystems(pkg),
     fetchRegistry(pkg),
     fetchGitHub(pkg),
+    fetchDownloads(pkg),
   ]);
 
   const maintenance = (eco || gh.last_commit_days != null) ? {
@@ -229,6 +264,7 @@ async function gatherFacts(pkg) {
     github: gh.repository,
     registry,
     license: depsDev.license,
+    downloads,
   };
 }
 

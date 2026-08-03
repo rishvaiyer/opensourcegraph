@@ -79,6 +79,10 @@ function makeFacts(pkg, rand) {
       contributors: jitter(rand, a.contribs, 0.05, 1),
     },
     license: { spdx_id: a.spdx },
+    downloads: {
+      last_month: Math.round(500_000 + rand() * 50_000_000),
+      source: pkg.ecosystem === 'npm' ? 'npm downloads API (sample)' : 'pypistats.org (sample)',
+    },
   };
 }
 

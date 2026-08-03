@@ -128,6 +128,8 @@ All public, open, and key-free (GITHUB_TOKEN is optional, rate-limit only):
 - **[ecosyste.ms](https://ecosyste.ms/)** — registry/repo maintenance metadata.
 - **[GitHub REST](https://docs.github.com/rest)** — last commit (`pushed_at`)
   and contributor concentration for the bus-factor signal.
+- **[npm downloads API](https://api.npmjs.org/)** / **[pypistats.org](https://pypistats.org/)** —
+  monthly download counts, shown as an adoption KPI (context only, not part of the risk signal).
 - **[SPDX](https://spdx.org/licenses/)** / **[OpenSSF Scorecard](https://securityscorecards.dev/)**
   — license ids classified locally; Scorecard scores read via deps.dev.
 

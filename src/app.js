@@ -15,6 +15,14 @@ const el = (tag, cls, html) => {
   return n;
 };
 const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const fmtDownloads = (n) => {
+  const x = Number(n);
+  if (!Number.isFinite(x)) return '—';
+  if (x >= 1e9) return `${(x / 1e9).toFixed(1)}B`;
+  if (x >= 1e6) return `${(x / 1e6).toFixed(1)}M`;
+  if (x >= 1e3) return `${(x / 1e3).toFixed(0)}k`;
+  return String(x);
+};
 
 // Risk band → color. Higher score = more reason to look closer.
 function bandColor(band) {
@@ -201,6 +209,7 @@ async function selectPackage(slug) {
         <div class="kpi-row" style="margin-bottom:0">
           <div class="kpi"><div class="v">${f.maintenance && f.maintenance.last_release_days != null ? f.maintenance.last_release_days + 'd' : '—'}</div><div class="l">Since last release</div></div>
           <div class="kpi"><div class="v">${f.bus_factor ? Math.round(f.bus_factor.top_share * 100) + '%' : '—'}</div><div class="l">Top contributor</div></div>
+          <div class="kpi"><div class="v">${f.downloads && f.downloads.last_month != null ? fmtDownloads(f.downloads.last_month) : '—'}</div><div class="l">Downloads / month${f.downloads ? ` (${esc(f.downloads.source)})` : ''}</div></div>
         </div>
       </div>
 
