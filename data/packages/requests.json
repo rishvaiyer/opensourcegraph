@@ -5,7 +5,7 @@
   "ecosystem": "pypi",
   "repo": "psf/requests",
   "data_source": "live",
-  "snapshot_date": "2026-07-26",
+  "snapshot_date": "2026-08-03",
   "facts": {
     "scorecard": {
       "score": 8.2
@@ -15,22 +15,22 @@
       "max_severity": "HIGH"
     },
     "maintenance": {
-      "last_release_days": 72,
-      "last_commit_days": 5,
+      "last_release_days": 81,
+      "last_commit_days": 0,
       "releases_past_year": 55
     },
     "bus_factor": {
-      "top_share": 0.30830524057615694,
+      "top_share": 0.3080220453153705,
       "contributors": 100
     },
     "github": {
-      "stars": 54177,
-      "forks": 10033,
+      "stars": 54204,
+      "forks": 10063,
       "open_issues": 233,
-      "watchers": 1299,
+      "watchers": 1304,
       "archived": false,
       "created_at": "2011-02-13T18:38:17Z",
-      "pushed_at": "2026-07-20T18:41:19Z",
+      "pushed_at": "2026-08-03T17:52:46Z",
       "default_branch": "main",
       "topics": [
         "client",
@@ -84,8 +84,8 @@
         "key": "maintenance",
         "label": "Maintenance / activity",
         "weight": 0.2,
-        "value": 5.6,
-        "evidence": "72d since last release, 5d since last commit, 55 releases in the past year",
+        "value": 5.9,
+        "evidence": "81d since last release, 0d since last commit, 55 releases in the past year",
         "source": "ecosyste.ms / GitHub",
         "confidence": "high"
       },
@@ -93,7 +93,7 @@
         "key": "bus_factor",
         "label": "Bus-factor (contributor concentration)",
         "weight": 0.15,
-        "value": 15.5,
+        "value": 15.4,
         "evidence": "top contributor authored 31% of commits across 100 contributors",
         "source": "GitHub contributors",
         "confidence": "high"
@@ -109,5 +109,5 @@
       }
     ]
   },
-  "summary": "requests carries an exploratory health/risk signal of 29/100 (Low; health 71/100), calculated from 100% available source coverage. Security posture: OpenSSF Scorecard 8.2/10 → inverted to 18/100 risk. Vulnerabilities: 16 package advisories across versions in OSV (max severity HIGH). Maintenance: 72d since last release, 5d since last commit, 55 releases in the past year. Apache-2.0 (permissive) → permissive obligations. This is an exploratory signal from public open-source metadata — not a security audit, a certification, or an endorsement of the project."
+  "summary": "requests carries an exploratory health/risk signal of 29/100 (Low; health 71/100), calculated from 100% available source coverage. Security posture: OpenSSF Scorecard 8.2/10 → inverted to 18/100 risk. Vulnerabilities: 16 package advisories across versions in OSV (max severity HIGH). Maintenance: 81d since last release, 0d since last commit, 55 releases in the past year. Apache-2.0 (permissive) → permissive obligations. This is an exploratory signal from public open-source metadata — not a security audit, a certification, or an endorsement of the project."
 }

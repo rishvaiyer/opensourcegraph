@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-26",
+  "generated": "2026-08-03",
   "data_source": "live",
   "note": "Live snapshot from public open-source APIs (deps.dev, OSV.dev, ecosyste.ms, GitHub, npm/PyPI, SPDX/OpenSSF). Signals are exploratory, not verdicts.",
   "packages": [
@@ -14,16 +14,6 @@
       "signal_band": "Elevated"
     },
     {
-      "slug": "chalk",
-      "display_name": "chalk",
-      "name": "chalk",
-      "ecosystem": "npm",
-      "repo": "chalk/chalk",
-      "signal_score": 42,
-      "health_score": 58,
-      "signal_band": "Moderate"
-    },
-    {
       "slug": "left-pad",
       "display_name": "left-pad",
       "name": "left-pad",
@@ -31,6 +21,16 @@
       "repo": "left-pad/left-pad",
       "signal_score": 40,
       "health_score": 60,
+      "signal_band": "Moderate"
+    },
+    {
+      "slug": "chalk",
+      "display_name": "chalk",
+      "name": "chalk",
+      "ecosystem": "npm",
+      "repo": "chalk/chalk",
+      "signal_score": 38,
+      "health_score": 62,
       "signal_band": "Moderate"
     },
     {
@@ -59,8 +59,8 @@
       "name": "urllib3",
       "ecosystem": "pypi",
       "repo": "urllib3/urllib3",
-      "signal_score": 35,
-      "health_score": 65,
+      "signal_score": 34,
+      "health_score": 66,
       "signal_band": "Moderate"
     },
     {
@@ -89,8 +89,8 @@
       "name": "react",
       "ecosystem": "npm",
       "repo": "facebook/react",
-      "signal_score": 26,
-      "health_score": 74,
+      "signal_score": 27,
+      "health_score": 73,
       "signal_band": "Low"
     }
   ]

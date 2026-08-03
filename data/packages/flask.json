@@ -5,7 +5,7 @@
   "ecosystem": "pypi",
   "repo": "pallets/flask",
   "data_source": "live",
-  "snapshot_date": "2026-07-26",
+  "snapshot_date": "2026-08-03",
   "facts": {
     "scorecard": {
       "score": 7.1
@@ -15,22 +15,22 @@
       "max_severity": "HIGH"
     },
     "maintenance": {
-      "last_release_days": 157,
-      "last_commit_days": 45,
+      "last_release_days": 166,
+      "last_commit_days": 4,
       "releases_past_year": 4
     },
     "bus_factor": {
-      "top_share": 0.405595946243666,
+      "top_share": 0.40625,
       "contributors": 100
     },
     "github": {
-      "stars": 72016,
-      "forks": 16918,
-      "open_issues": 10,
-      "watchers": 2088,
+      "stars": 72094,
+      "forks": 16925,
+      "open_issues": 7,
+      "watchers": 2094,
       "archived": false,
       "created_at": "2010-04-06T11:11:59Z",
-      "pushed_at": "2026-06-10T18:03:29Z",
+      "pushed_at": "2026-07-30T17:29:53Z",
       "default_branch": "main",
       "topics": [
         "flask",
@@ -83,8 +83,8 @@
         "key": "maintenance",
         "label": "Maintenance / activity",
         "weight": 0.2,
-        "value": 28.1,
-        "evidence": "157d since last release, 45d since last commit, 4 releases in the past year",
+        "value": 25.8,
+        "evidence": "166d since last release, 4d since last commit, 4 releases in the past year",
         "source": "ecosyste.ms / GitHub",
         "confidence": "high"
       },
@@ -92,7 +92,7 @@
         "key": "bus_factor",
         "label": "Bus-factor (contributor concentration)",
         "weight": 0.15,
-        "value": 29.4,
+        "value": 29.5,
         "evidence": "top contributor authored 41% of commits across 100 contributors",
         "source": "GitHub contributors",
         "confidence": "high"
@@ -108,5 +108,5 @@
       }
     ]
   },
-  "summary": "flask carries an exploratory health/risk signal of 38/100 (Moderate; health 62/100), calculated from 100% available source coverage. Security posture: OpenSSF Scorecard 7.1/10 → inverted to 29/100 risk. Vulnerabilities: 10 package advisories across versions in OSV (max severity HIGH). Maintenance: 157d since last release, 45d since last commit, 4 releases in the past year. BSD-3-Clause (permissive) → permissive obligations. This is an exploratory signal from public open-source metadata — not a security audit, a certification, or an endorsement of the project."
+  "summary": "flask carries an exploratory health/risk signal of 38/100 (Moderate; health 62/100), calculated from 100% available source coverage. Security posture: OpenSSF Scorecard 7.1/10 → inverted to 29/100 risk. Vulnerabilities: 10 package advisories across versions in OSV (max severity HIGH). Maintenance: 166d since last release, 4d since last commit, 4 releases in the past year. BSD-3-Clause (permissive) → permissive obligations. This is an exploratory signal from public open-source metadata — not a security audit, a certification, or an endorsement of the project."
 }

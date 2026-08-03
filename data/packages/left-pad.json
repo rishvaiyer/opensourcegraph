@@ -5,7 +5,7 @@
   "ecosystem": "npm",
   "repo": "left-pad/left-pad",
   "data_source": "live",
-  "snapshot_date": "2026-07-26",
+  "snapshot_date": "2026-08-03",
   "facts": {
     "scorecard": {
       "score": 3.9
@@ -15,8 +15,8 @@
       "max_severity": null
     },
     "maintenance": {
-      "last_release_days": 3030,
-      "last_commit_days": 2655,
+      "last_release_days": 3039,
+      "last_commit_days": 2663,
       "releases_past_year": 1
     },
     "bus_factor": {
@@ -24,8 +24,8 @@
       "contributors": 16
     },
     "github": {
-      "stars": 1304,
-      "forks": 138,
+      "stars": 1305,
+      "forks": 139,
       "open_issues": 10,
       "watchers": 1,
       "archived": true,
@@ -47,7 +47,7 @@
       "requires_runtime": null,
       "description": "String left pad",
       "package_url": "https://www.npmjs.com/package/left-pad",
-      "weekly_downloads": 1411458,
+      "weekly_downloads": 1479857,
       "source": "npm Registry API"
     },
     "license": {
@@ -83,7 +83,7 @@
         "label": "Maintenance / activity",
         "weight": 0.2,
         "value": 85,
-        "evidence": "3030d since last release, 2655d since last commit, 1 releases in the past year",
+        "evidence": "3039d since last release, 2663d since last commit, 1 releases in the past year",
         "source": "ecosyste.ms / GitHub",
         "confidence": "high"
       },
@@ -107,5 +107,5 @@
       }
     ]
   },
-  "summary": "left-pad carries an exploratory health/risk signal of 40/100 (Moderate; health 60/100), calculated from 100% available source coverage. Security posture: OpenSSF Scorecard 3.9/10 → inverted to 61/100 risk. Vulnerabilities: no package advisories returned by OSV. Maintenance: 3030d since last release, 2655d since last commit, 1 releases in the past year. WTFPL (permissive) → permissive obligations. This is an exploratory signal from public open-source metadata — not a security audit, a certification, or an endorsement of the project."
+  "summary": "left-pad carries an exploratory health/risk signal of 40/100 (Moderate; health 60/100), calculated from 100% available source coverage. Security posture: OpenSSF Scorecard 3.9/10 → inverted to 61/100 risk. Vulnerabilities: no package advisories returned by OSV. Maintenance: 3039d since last release, 2663d since last commit, 1 releases in the past year. WTFPL (permissive) → permissive obligations. This is an exploratory signal from public open-source metadata — not a security audit, a certification, or an endorsement of the project."
 }
