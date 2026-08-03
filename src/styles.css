@@ -28,12 +28,12 @@ a{color:var(--green)}
 .nav-logo{font-size:18px}
 .nav-name{font-family:var(--mono);font-size:13px;letter-spacing:.04em;color:var(--t1);font-weight:700}
 .nav-name span{color:var(--green)}
-.nav-r{font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--t3);text-decoration:none;transition:color .2s}
+.nav-r{font-family:var(--mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--t3);text-decoration:none;transition:color .2s}
 .nav-r:hover{color:var(--green)}
 
 /* HERO */
 .hero{padding:38px 0 30px}
-.badge{display:inline-flex;align-items:center;gap:7px;font-family:var(--mono);font-size:10px;letter-spacing:.12em;
+.badge{display:inline-flex;align-items:center;gap:7px;font-family:var(--mono);font-size:12px;letter-spacing:.12em;
   color:var(--green);text-transform:uppercase;padding:5px 12px;border:1px solid rgba(0,229,160,.22);border-radius:4px;background:var(--gd);margin-bottom:24px}
 .badge::before{content:'';width:5px;height:5px;border-radius:50%;background:var(--green);animation:pulse 2s ease-in-out infinite}
 .badge.sample{color:var(--amber);border-color:rgba(255,180,84,.3);background:rgba(255,180,84,.07)}
@@ -59,7 +59,7 @@ a{color:var(--green)}
   font-family:var(--sans);font-size:15px;padding:13px 16px;outline:none;transition:border-color .2s}
 #search:focus{border-color:var(--green2)}
 #search::placeholder{color:var(--t3)}
-.compare-toggle{font-family:var(--mono);font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:var(--t2);
+.compare-toggle{font-family:var(--mono);font-size:12px;letter-spacing:.05em;text-transform:uppercase;color:var(--t2);
   display:flex;align-items:center;gap:7px;cursor:pointer;user-select:none;white-space:nowrap}
 .compare-toggle input{accent-color:var(--green);width:15px;height:15px}
 .chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
@@ -70,7 +70,7 @@ a{color:var(--green)}
 .chip .dot{width:7px;height:7px;border-radius:50%}
 
 /* SECTION LABEL */
-.sl{font-family:var(--mono);font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:var(--t3);margin:8px 0 16px;display:flex;align-items:center;gap:10px}
+.sl{font-family:var(--mono);font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--t3);margin:8px 0 16px;display:flex;align-items:center;gap:10px}
 .sl::after{content:'';flex:1;height:1px;background:var(--b1)}
 
 /* LEADERBOARD */
@@ -82,19 +82,19 @@ a{color:var(--green)}
 .lb-name{font-size:16px;font-weight:600}
 .lb-name small{display:block;font-weight:400;font-size:12px;color:var(--t2);margin-top:2px;font-family:var(--mono)}
 .lb-vol{font-family:var(--mono);font-size:12px;color:var(--t2);text-align:right}
-.lb-vol small{color:var(--t3);display:block;font-size:10px;letter-spacing:.1em;text-transform:uppercase}
-.eco-tag{display:inline-block;font-family:var(--mono);font-size:9px;letter-spacing:.1em;text-transform:uppercase;
+.lb-vol small{color:var(--t3);display:block;font-size:12px;letter-spacing:.1em;text-transform:uppercase}
+.eco-tag{display:inline-block;font-family:var(--mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;
   color:var(--blue);background:rgba(77,158,255,.1);border:1px solid rgba(77,158,255,.25);border-radius:4px;padding:2px 6px;margin-left:7px;vertical-align:middle}
 .score-pill{font-family:var(--mono);font-weight:700;font-size:15px;padding:7px 13px;border-radius:8px;min-width:84px;text-align:center}
-.score-pill small{display:block;font-size:9px;font-weight:400;letter-spacing:.12em;text-transform:uppercase;opacity:.8}
+.score-pill small{display:block;font-size:12px;font-weight:400;letter-spacing:.12em;text-transform:uppercase;opacity:.8}
 
 /* DETAIL */
 #detail{margin-top:10px}
-.back{font-family:var(--mono);font-size:11px;letter-spacing:.06em;color:var(--t2);background:none;border:none;cursor:pointer;padding:6px 0;margin-bottom:18px}
+.back{font-family:var(--mono);font-size:12px;letter-spacing:.06em;color:var(--t2);background:none;border:none;cursor:pointer;padding:6px 0;margin-bottom:18px}
 .back:hover{color:var(--green)}
 .dhead{display:flex;justify-content:space-between;align-items:flex-start;gap:20px;flex-wrap:wrap;margin-bottom:6px}
 .dhead h2{font-size:30px;font-weight:700;letter-spacing:-.02em}
-.dhead .cfpb-name{font-family:var(--mono);font-size:11px;color:var(--t3);margin-top:4px}
+.dhead .cfpb-name{font-family:var(--mono);font-size:12px;color:var(--t3);margin-top:4px}
 .dhead .cfpb-name a{color:var(--t2)}
 .summary{font-size:15px;line-height:1.7;color:var(--t2);background:var(--s1);border:1px solid var(--b1);border-left:3px solid var(--green2);
   border-radius:10px;padding:18px 20px;margin:18px 0 26px}
@@ -107,7 +107,7 @@ a{color:var(--green)}
 .kpi-row{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:16px}
 .kpi{flex:1;min-width:120px;background:var(--s2);border:1px solid var(--b2);border-radius:10px;padding:14px 16px}
 .kpi .v{font-size:24px;font-weight:700;letter-spacing:-.02em}
-.kpi .l{font-family:var(--mono);font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:var(--t2);margin-top:4px}
+.kpi .l{font-family:var(--mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--t2);margin-top:4px}
 
 /* charts */
 svg{display:block;width:100%;overflow:visible}
@@ -124,7 +124,7 @@ svg{display:block;width:100%;overflow:visible}
 .sig-comp:first-of-type{border-top:none}
 .sig-comp .sc-top{display:flex;justify-content:space-between;align-items:baseline;gap:12px;margin-bottom:6px}
 .sig-comp .sc-label{font-size:14px;font-weight:500}
-.sig-comp .sc-weight{font-family:var(--mono);font-size:10px;color:var(--t3);letter-spacing:.05em}
+.sig-comp .sc-weight{font-family:var(--mono);font-size:12px;color:var(--t3);letter-spacing:.05em}
 .sig-comp .sc-val{font-family:var(--mono);font-size:13px;color:var(--t1)}
 .sig-comp .sc-ev{font-size:12.5px;color:var(--t2);line-height:1.5}
 .sig-comp .sc-meta{display:flex;gap:8px;flex-wrap:wrap;margin-top:7px}
@@ -142,11 +142,11 @@ svg{display:block;width:100%;overflow:visible}
 .gauge{position:relative;width:140px;height:140px;flex-shrink:0}
 .gauge .num{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center}
 .gauge .num b{font-size:34px;font-weight:700;letter-spacing:-.02em}
-.gauge .num span{font-family:var(--mono);font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:var(--t2)}
+.gauge .num span{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--t2)}
 .gauge-note{font-size:13px;color:var(--t2);line-height:1.6;max-width:360px}
 .gauge-note strong{color:var(--t1)}
-.evidence-link{display:inline-block;margin-top:12px;font-family:var(--mono);font-size:11px;letter-spacing:.04em;text-underline-offset:3px}
-.band-tag{display:inline-block;font-family:var(--mono);font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:4px 10px;border-radius:6px;margin-bottom:8px}
+.evidence-link{display:inline-block;margin-top:12px;font-family:var(--mono);font-size:12px;letter-spacing:.04em;text-underline-offset:3px}
+.band-tag{display:inline-block;font-family:var(--mono);font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:4px 10px;border-radius:6px;margin-bottom:8px}
 
 /* compare */
 .compare{margin-top:10px}
