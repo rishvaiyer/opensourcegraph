@@ -129,6 +129,12 @@ async function fetchEcosystems(pkg) {
       ? estimateCadence(json.versions_count, json.first_release_published_at)
       : null,
     last_commit_days: null, // filled from GitHub below when available
+    // ecosyste.ms also aggregates registry download counts; kept here as the
+    // fallback adoption source (pypistats blocks datacenter IPs, so this is
+    // effectively the primary source for PyPI in CI).
+    downloads: json.downloads != null && json.downloads_period === 'last-month'
+      ? { last_month: Number(json.downloads), source: 'ecosyste.ms' }
+      : null,
   };
 }
 
@@ -264,7 +270,7 @@ async function gatherFacts(pkg) {
     github: gh.repository,
     registry,
     license: depsDev.license,
-    downloads,
+    downloads: downloads || eco?.downloads || null,
   };
 }
 
