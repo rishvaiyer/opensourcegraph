@@ -53,7 +53,10 @@
     "license": {
       "spdx_id": "MIT"
     },
-    "downloads": null
+    "downloads": {
+      "last_month": 543795906,
+      "source": "ecosyste.ms"
+    }
   },
   "signal": {
     "score": 34,

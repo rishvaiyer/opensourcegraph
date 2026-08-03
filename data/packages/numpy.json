@@ -49,7 +49,10 @@
     "license": {
       "spdx_id": "0BSD AND BSD-3-Clause AND CC0-1.0 AND MIT AND Zlib"
     },
-    "downloads": null
+    "downloads": {
+      "last_month": 663399242,
+      "source": "ecosyste.ms"
+    }
   },
   "signal": {
     "score": 36,

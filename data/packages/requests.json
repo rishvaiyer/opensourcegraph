@@ -55,7 +55,10 @@
     "license": {
       "spdx_id": "Apache-2.0"
     },
-    "downloads": null
+    "downloads": {
+      "last_month": 1686700720,
+      "source": "ecosyste.ms"
+    }
   },
   "signal": {
     "score": 29,

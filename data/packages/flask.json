@@ -54,7 +54,10 @@
     "license": {
       "spdx_id": "BSD-3-Clause"
     },
-    "downloads": null
+    "downloads": {
+      "last_month": 203326180,
+      "source": "ecosyste.ms"
+    }
   },
   "signal": {
     "score": 38,
