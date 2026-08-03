@@ -1,0 +1,109 @@
+{
+  "slug": "react",
+  "name": "react",
+  "display_name": "react",
+  "ecosystem": "npm",
+  "repo": "facebook/react",
+  "data_source": "live",
+  "snapshot_date": "2026-07-26",
+  "facts": {
+    "scorecard": null,
+    "vulns": {
+      "count": 2,
+      "max_severity": "HIGH"
+    },
+    "maintenance": {
+      "last_release_days": 180,
+      "last_commit_days": 0,
+      "releases_past_year": 388
+    },
+    "bus_factor": {
+      "top_share": 0.11399847139749544,
+      "contributors": 100
+    },
+    "github": {
+      "stars": 246734,
+      "forks": 51163,
+      "open_issues": 1230,
+      "watchers": 6592,
+      "archived": false,
+      "created_at": "2013-05-24T16:15:54Z",
+      "pushed_at": "2026-07-26T03:07:05Z",
+      "default_branch": "main",
+      "topics": [
+        "declarative",
+        "frontend",
+        "javascript",
+        "library",
+        "react",
+        "ui"
+      ],
+      "source_url": "https://github.com/react/react"
+    },
+    "registry": {
+      "current_version": "19.2.8",
+      "requires_runtime": ">=0.10.0",
+      "description": "React is a JavaScript library for building user interfaces.",
+      "package_url": "https://www.npmjs.com/package/react",
+      "weekly_downloads": 162709618,
+      "source": "npm Registry API"
+    },
+    "license": {
+      "spdx_id": "MIT"
+    }
+  },
+  "signal": {
+    "score": 26,
+    "health_score": 74,
+    "band": "Low",
+    "coverage": 75,
+    "components": [
+      {
+        "key": "security_posture",
+        "label": "Security posture",
+        "weight": 0.25,
+        "value": null,
+        "evidence": "no OpenSSF Scorecard returned — excluded from the combined signal",
+        "source": "OpenSSF Scorecard (via deps.dev)",
+        "confidence": "low"
+      },
+      {
+        "key": "known_vulns",
+        "label": "Known vulnerabilities",
+        "weight": 0.25,
+        "value": 65.6,
+        "evidence": "2 package advisories across versions in OSV (max severity HIGH)",
+        "source": "OSV.dev",
+        "confidence": "high"
+      },
+      {
+        "key": "maintenance",
+        "label": "Maintenance / activity",
+        "weight": 0.2,
+        "value": 13.2,
+        "evidence": "180d since last release, 0d since last commit, 388 releases in the past year",
+        "source": "ecosyste.ms / GitHub",
+        "confidence": "high"
+      },
+      {
+        "key": "bus_factor",
+        "label": "Bus-factor (contributor concentration)",
+        "weight": 0.15,
+        "value": 0,
+        "evidence": "top contributor authored 11% of commits across 100 contributors",
+        "source": "GitHub contributors",
+        "confidence": "high"
+      },
+      {
+        "key": "license_risk",
+        "label": "License obligations",
+        "weight": 0.15,
+        "value": 5,
+        "evidence": "MIT (permissive) → permissive obligations",
+        "source": "SPDX license id (local classification)",
+        "confidence": "high"
+      }
+    ]
+  },
+  "summary": "react carries an exploratory health/risk signal of 26/100 (Low; health 74/100), calculated from 75% available source coverage. Security posture: no OpenSSF Scorecard returned — excluded from the combined signal. Vulnerabilities: 2 package advisories across versions in OSV (max severity HIGH). Maintenance: 180d since last release, 0d since last commit, 388 releases in the past year. MIT (permissive) → permissive obligations. This is an exploratory signal from public open-source metadata — not a security audit, a certification, or an endorsement of the project."
+}

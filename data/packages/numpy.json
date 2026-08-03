@@ -1,0 +1,107 @@
+{
+  "slug": "numpy",
+  "name": "numpy",
+  "display_name": "numpy",
+  "ecosystem": "pypi",
+  "repo": "numpy/numpy",
+  "data_source": "live",
+  "snapshot_date": "2026-07-26",
+  "facts": {
+    "scorecard": {
+      "score": 7.6
+    },
+    "vulns": {
+      "count": 16,
+      "max_severity": "CRITICAL"
+    },
+    "maintenance": {
+      "last_release_days": 175,
+      "last_commit_days": 0,
+      "releases_past_year": 9
+    },
+    "bus_factor": {
+      "top_share": 0.2095356144244905,
+      "contributors": 100
+    },
+    "github": {
+      "stars": 32429,
+      "forks": 12593,
+      "open_issues": 2322,
+      "watchers": 601,
+      "archived": false,
+      "created_at": "2010-09-13T23:02:39Z",
+      "pushed_at": "2026-07-25T16:31:30Z",
+      "default_branch": "main",
+      "topics": [
+        "numpy",
+        "python"
+      ],
+      "source_url": "https://github.com/numpy/numpy"
+    },
+    "registry": {
+      "current_version": "2.5.1",
+      "requires_runtime": ">=3.12",
+      "description": "Fundamental package for array computing in Python",
+      "package_url": "https://pypi.org/project/numpy/",
+      "weekly_downloads": null,
+      "source": "PyPI JSON API"
+    },
+    "license": {
+      "spdx_id": "0BSD AND BSD-3-Clause AND CC0-1.0 AND MIT AND Zlib"
+    }
+  },
+  "signal": {
+    "score": 36,
+    "health_score": 64,
+    "band": "Moderate",
+    "coverage": 100,
+    "components": [
+      {
+        "key": "security_posture",
+        "label": "Security posture",
+        "weight": 0.25,
+        "value": 24,
+        "evidence": "OpenSSF Scorecard 7.6/10 → inverted to 24/100 risk",
+        "source": "OpenSSF Scorecard (via deps.dev)",
+        "confidence": "high"
+      },
+      {
+        "key": "known_vulns",
+        "label": "Known vulnerabilities",
+        "weight": 0.25,
+        "value": 100,
+        "evidence": "16 package advisories across versions in OSV (max severity CRITICAL)",
+        "source": "OSV.dev",
+        "confidence": "high"
+      },
+      {
+        "key": "maintenance",
+        "label": "Maintenance / activity",
+        "weight": 0.2,
+        "value": 17.8,
+        "evidence": "175d since last release, 0d since last commit, 9 releases in the past year",
+        "source": "ecosyste.ms / GitHub",
+        "confidence": "high"
+      },
+      {
+        "key": "bus_factor",
+        "label": "Bus-factor (contributor concentration)",
+        "weight": 0.15,
+        "value": 1.4,
+        "evidence": "top contributor authored 21% of commits across 100 contributors",
+        "source": "GitHub contributors",
+        "confidence": "high"
+      },
+      {
+        "key": "license_risk",
+        "label": "License obligations",
+        "weight": 0.15,
+        "value": 5,
+        "evidence": "0BSD AND BSD-3-Clause AND CC0-1.0 AND MIT AND Zlib (permissive) → permissive obligations",
+        "source": "SPDX license id (local classification)",
+        "confidence": "high"
+      }
+    ]
+  },
+  "summary": "numpy carries an exploratory health/risk signal of 36/100 (Moderate; health 64/100), calculated from 100% available source coverage. Security posture: OpenSSF Scorecard 7.6/10 → inverted to 24/100 risk. Vulnerabilities: 16 package advisories across versions in OSV (max severity CRITICAL). Maintenance: 175d since last release, 0d since last commit, 9 releases in the past year. 0BSD AND BSD-3-Clause AND CC0-1.0 AND MIT AND Zlib (permissive) → permissive obligations. This is an exploratory signal from public open-source metadata — not a security audit, a certification, or an endorsement of the project."
+}

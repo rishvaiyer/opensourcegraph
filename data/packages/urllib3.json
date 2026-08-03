@@ -1,0 +1,109 @@
+{
+  "slug": "urllib3",
+  "name": "urllib3",
+  "display_name": "urllib3",
+  "ecosystem": "pypi",
+  "repo": "urllib3/urllib3",
+  "data_source": "live",
+  "snapshot_date": "2026-07-26",
+  "facts": {
+    "scorecard": {
+      "score": 8.5
+    },
+    "vulns": {
+      "count": 38,
+      "max_severity": "CRITICAL"
+    },
+    "maintenance": {
+      "last_release_days": 79,
+      "last_commit_days": 5,
+      "releases_past_year": 6
+    },
+    "bus_factor": {
+      "top_share": 0.2879232204745401,
+      "contributors": 100
+    },
+    "github": {
+      "stars": 4046,
+      "forks": 1413,
+      "open_issues": 221,
+      "watchers": 97,
+      "archived": false,
+      "created_at": "2011-09-18T18:08:28Z",
+      "pushed_at": "2026-07-21T10:20:02Z",
+      "default_branch": "main",
+      "topics": [
+        "http",
+        "http-client",
+        "python",
+        "urllib3"
+      ],
+      "source_url": "https://github.com/urllib3/urllib3"
+    },
+    "registry": {
+      "current_version": "2.7.0",
+      "requires_runtime": ">=3.10",
+      "description": "HTTP library with thread-safe connection pooling, file post, and more.",
+      "package_url": "https://pypi.org/project/urllib3/",
+      "weekly_downloads": null,
+      "source": "PyPI JSON API"
+    },
+    "license": {
+      "spdx_id": "MIT"
+    }
+  },
+  "signal": {
+    "score": 35,
+    "health_score": 65,
+    "band": "Moderate",
+    "coverage": 100,
+    "components": [
+      {
+        "key": "security_posture",
+        "label": "Security posture",
+        "weight": 0.25,
+        "value": 15,
+        "evidence": "OpenSSF Scorecard 8.5/10 → inverted to 15/100 risk",
+        "source": "OpenSSF Scorecard (via deps.dev)",
+        "confidence": "high"
+      },
+      {
+        "key": "known_vulns",
+        "label": "Known vulnerabilities",
+        "weight": 0.25,
+        "value": 100,
+        "evidence": "38 package advisories across versions in OSV (max severity CRITICAL)",
+        "source": "OSV.dev",
+        "confidence": "high"
+      },
+      {
+        "key": "maintenance",
+        "label": "Maintenance / activity",
+        "weight": 0.2,
+        "value": 16.1,
+        "evidence": "79d since last release, 5d since last commit, 6 releases in the past year",
+        "source": "ecosyste.ms / GitHub",
+        "confidence": "high"
+      },
+      {
+        "key": "bus_factor",
+        "label": "Bus-factor (contributor concentration)",
+        "weight": 0.15,
+        "value": 12.6,
+        "evidence": "top contributor authored 29% of commits across 100 contributors",
+        "source": "GitHub contributors",
+        "confidence": "high"
+      },
+      {
+        "key": "license_risk",
+        "label": "License obligations",
+        "weight": 0.15,
+        "value": 5,
+        "evidence": "MIT (permissive) → permissive obligations",
+        "source": "SPDX license id (local classification)",
+        "confidence": "high"
+      }
+    ]
+  },
+  "summary": "urllib3 carries an exploratory health/risk signal of 35/100 (Moderate; health 65/100), calculated from 100% available source coverage. Security posture: OpenSSF Scorecard 8.5/10 → inverted to 15/100 risk. Vulnerabilities: 38 package advisories across versions in OSV (max severity CRITICAL). Maintenance: 79d since last release, 5d since last commit, 6 releases in the past year. MIT (permissive) → permissive obligations. This is an exploratory signal from public open-source metadata — not a security audit, a certification, or an endorsement of the project."
+}

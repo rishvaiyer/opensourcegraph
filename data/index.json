@@ -1,0 +1,97 @@
+{
+  "generated": "2026-07-26",
+  "data_source": "live",
+  "note": "Live snapshot from public open-source APIs (deps.dev, OSV.dev, ecosyste.ms, GitHub, npm/PyPI, SPDX/OpenSSF). Signals are exploratory, not verdicts.",
+  "packages": [
+    {
+      "slug": "lodash",
+      "display_name": "lodash",
+      "name": "lodash",
+      "ecosystem": "npm",
+      "repo": "lodash/lodash",
+      "signal_score": 50,
+      "health_score": 50,
+      "signal_band": "Elevated"
+    },
+    {
+      "slug": "chalk",
+      "display_name": "chalk",
+      "name": "chalk",
+      "ecosystem": "npm",
+      "repo": "chalk/chalk",
+      "signal_score": 42,
+      "health_score": 58,
+      "signal_band": "Moderate"
+    },
+    {
+      "slug": "left-pad",
+      "display_name": "left-pad",
+      "name": "left-pad",
+      "ecosystem": "npm",
+      "repo": "left-pad/left-pad",
+      "signal_score": 40,
+      "health_score": 60,
+      "signal_band": "Moderate"
+    },
+    {
+      "slug": "flask",
+      "display_name": "flask",
+      "name": "flask",
+      "ecosystem": "pypi",
+      "repo": "pallets/flask",
+      "signal_score": 38,
+      "health_score": 62,
+      "signal_band": "Moderate"
+    },
+    {
+      "slug": "numpy",
+      "display_name": "numpy",
+      "name": "numpy",
+      "ecosystem": "pypi",
+      "repo": "numpy/numpy",
+      "signal_score": 36,
+      "health_score": 64,
+      "signal_band": "Moderate"
+    },
+    {
+      "slug": "urllib3",
+      "display_name": "urllib3",
+      "name": "urllib3",
+      "ecosystem": "pypi",
+      "repo": "urllib3/urllib3",
+      "signal_score": 35,
+      "health_score": 65,
+      "signal_band": "Moderate"
+    },
+    {
+      "slug": "express",
+      "display_name": "express",
+      "name": "express",
+      "ecosystem": "npm",
+      "repo": "expressjs/express",
+      "signal_score": 32,
+      "health_score": 68,
+      "signal_band": "Moderate"
+    },
+    {
+      "slug": "requests",
+      "display_name": "requests",
+      "name": "requests",
+      "ecosystem": "pypi",
+      "repo": "psf/requests",
+      "signal_score": 29,
+      "health_score": 71,
+      "signal_band": "Low"
+    },
+    {
+      "slug": "react",
+      "display_name": "react",
+      "name": "react",
+      "ecosystem": "npm",
+      "repo": "facebook/react",
+      "signal_score": 26,
+      "health_score": 74,
+      "signal_band": "Low"
+    }
+  ]
+}

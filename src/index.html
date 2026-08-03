@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OpenSourceGraph — transparent health signals for open-source packages</title>
+<meta name="description" content="Search an open-source package or repo and see a transparent 0–100 health/risk signal — security posture, known vulnerabilities, maintenance, bus-factor, and license — each with its source and confidence. Built on public open-source APIs.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./styles.css?v=20260726-4">
+</head>
+<body>
+<div class="orb"></div>
+<div class="wrap">
+
+  <nav class="nav">
+    <a class="nav-l" href="../">
+      <span class="nav-logo">📦</span>
+      <span class="nav-name">OpenSource<span>Graph</span></span>
+    </a>
+    <a class="nav-r" href="../">unevil-warden · Rishva Iyer · Portfolio ↗</a>
+  </nav>
+
+  <header class="hero">
+    <div class="badge" id="sourceBadge">Loading…</div>
+    <h1>How healthy is this <em>open-source dependency?</em></h1>
+    <p class="hero-sub">
+      Explore a verified snapshot of nine npm and PyPI packages to see their
+      <strong>security posture, known vulnerabilities, maintenance, bus-factor, and license</strong> —
+      blended into a transparent <strong>0–100 health/risk signal</strong>, with every factor showing
+      its source and a confidence label. Built on public APIs: <strong>deps.dev, OSV.dev, ecosyste.ms,
+      GitHub, npm/PyPI registries, and SPDX/OpenSSF</strong>. A signal explorer, not a verdict or an endorsement.
+    </p>
+  </header>
+
+  <!-- Controls -->
+  <section class="controls">
+    <form class="analyze-row" id="analyzeForm">
+      <select id="analyzeEcosystem" aria-label="Package ecosystem">
+        <option value="npm">npm</option>
+        <option value="pypi">PyPI</option>
+      </select>
+      <input id="analyzeName" required autocomplete="off" placeholder="Analyze any package, e.g. vite" aria-label="Package name">
+      <button type="submit" id="analyzeButton">Analyze package</button>
+    </form>
+    <div class="analyze-status" id="analyzeStatus" role="status"></div>
+    <div class="search-row">
+      <input id="search" type="search" autocomplete="off" placeholder="Filter 9 verified packages…" aria-label="Filter verified packages">
+      <label class="compare-toggle">
+        <input type="checkbox" id="compareToggle"> Compare two
+      </label>
+    </div>
+    <div id="packageChips" class="chips"></div>
+  </section>
+
+  <div class="sl" id="boardLabel">Risk leaderboard</div>
+  <section id="leaderboard" class="leaderboard"></section>
+
+  <main id="detail" hidden></main>
+  <section id="compare" class="compare" hidden></section>
+
+  <footer class="foot">
+    <p>
+      <strong>Sources:</strong>
+      <a href="https://deps.dev/" target="_blank" rel="noopener">deps.dev</a> (licenses, advisories, OpenSSF Scorecard),
+      <a href="https://osv.dev/" target="_blank" rel="noopener">OSV.dev</a> (vulnerabilities),
+      <a href="https://ecosyste.ms/" target="_blank" rel="noopener">ecosyste.ms</a> (maintenance),
+      <a href="https://docs.github.com/rest" target="_blank" rel="noopener">GitHub REST</a> (repository activity, contributors),
+      <a href="https://github.com/npm/registry/blob/main/docs/REGISTRY-API.md" target="_blank" rel="noopener">npm Registry</a> /
+      <a href="https://docs.pypi.org/api/json/" target="_blank" rel="noopener">PyPI JSON</a> (current package facts), and
+      <a href="https://spdx.org/licenses/" target="_blank" rel="noopener">SPDX</a> / <a href="https://securityscorecards.dev/" target="_blank" rel="noopener">OpenSSF Scorecard</a>.
+      All published package facts come from the dated live API snapshot; synthetic datasets are blocked from the public build.
+    </p>
+    <p class="disclaimer">
+      Every score here is an <strong>exploratory signal</strong> derived from public open-source metadata — not a security
+      audit, a certification, or an endorsement of (or a warning against) any project. License classification is a coarse
+      lens: copyleft is not "worse", it simply carries more obligations to weigh. Low-confidence factors mean a source was
+      missing, not that a project is fine. Nothing here is legal, security, or investment advice.
+    </p>
+  </footer>
+</div>
+
+<script src="./app.js?v=20260726-4"></script>
+</body>
+</html>

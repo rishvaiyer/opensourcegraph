@@ -1,0 +1,16 @@
+{
+  "name": "opensourcegraph",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Transparent open-source health/risk signals for packages and repos, built on public open-source APIs (deps.dev, OSV, ecosyste.ms, GitHub, SPDX/OpenSSF).",
+  "scripts": {
+    "sample": "node scripts/gen-sample.mjs",
+    "ingest": "node scripts/ingest.mjs",
+    "build": "node build-site.mjs",
+    "preview": "node build-site.mjs && npx -y serve dist -l 5070"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

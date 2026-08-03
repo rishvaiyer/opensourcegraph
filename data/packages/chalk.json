@@ -1,0 +1,113 @@
+{
+  "slug": "chalk",
+  "name": "chalk",
+  "display_name": "chalk",
+  "ecosystem": "npm",
+  "repo": "chalk/chalk",
+  "data_source": "live",
+  "snapshot_date": "2026-07-26",
+  "facts": {
+    "scorecard": {
+      "score": 3.8
+    },
+    "vulns": {
+      "count": 1,
+      "max_severity": null
+    },
+    "maintenance": {
+      "last_release_days": 321,
+      "last_commit_days": 0,
+      "releases_past_year": 3
+    },
+    "bus_factor": {
+      "top_share": 0.6112759643916914,
+      "contributors": 58
+    },
+    "github": {
+      "stars": 23284,
+      "forks": 1019,
+      "open_issues": 0,
+      "watchers": 141,
+      "archived": false,
+      "created_at": "2013-08-03T00:20:12Z",
+      "pushed_at": "2026-07-25T23:40:11Z",
+      "default_branch": "main",
+      "topics": [
+        "ansi",
+        "ansi-escape-codes",
+        "chalk",
+        "cli",
+        "color",
+        "commandline",
+        "console",
+        "javascript"
+      ],
+      "source_url": "https://github.com/chalk/chalk"
+    },
+    "registry": {
+      "current_version": "5.6.2",
+      "requires_runtime": "^12.17.0 || ^14.13 || >=16.0.0",
+      "description": "Terminal string styling done right",
+      "package_url": "https://www.npmjs.com/package/chalk",
+      "weekly_downloads": 476784446,
+      "source": "npm Registry API"
+    },
+    "license": {
+      "spdx_id": "MIT"
+    }
+  },
+  "signal": {
+    "score": 42,
+    "health_score": 58,
+    "band": "Moderate",
+    "coverage": 100,
+    "components": [
+      {
+        "key": "security_posture",
+        "label": "Security posture",
+        "weight": 0.25,
+        "value": 62,
+        "evidence": "OpenSSF Scorecard 3.8/10 → inverted to 62/100 risk",
+        "source": "OpenSSF Scorecard (via deps.dev)",
+        "confidence": "high"
+      },
+      {
+        "key": "known_vulns",
+        "label": "Known vulnerabilities",
+        "weight": 0.25,
+        "value": 38,
+        "evidence": "1 package advisory across versions in OSV (max severity unknown)",
+        "source": "OSV.dev",
+        "confidence": "high"
+      },
+      {
+        "key": "maintenance",
+        "label": "Maintenance / activity",
+        "weight": 0.2,
+        "value": 38.5,
+        "evidence": "321d since last release, 0d since last commit, 3 releases in the past year",
+        "source": "ecosyste.ms / GitHub",
+        "confidence": "high"
+      },
+      {
+        "key": "bus_factor",
+        "label": "Bus-factor (contributor concentration)",
+        "weight": 0.15,
+        "value": 58.8,
+        "evidence": "top contributor authored 61% of commits across 58 contributors",
+        "source": "GitHub contributors",
+        "confidence": "high"
+      },
+      {
+        "key": "license_risk",
+        "label": "License obligations",
+        "weight": 0.15,
+        "value": 5,
+        "evidence": "MIT (permissive) → permissive obligations",
+        "source": "SPDX license id (local classification)",
+        "confidence": "high"
+      }
+    ]
+  },
+  "summary": "chalk carries an exploratory health/risk signal of 42/100 (Moderate; health 58/100), calculated from 100% available source coverage. Security posture: OpenSSF Scorecard 3.8/10 → inverted to 62/100 risk. Vulnerabilities: 1 package advisory across versions in OSV (max severity unknown). Maintenance: 321d since last release, 0d since last commit, 3 releases in the past year. MIT (permissive) → permissive obligations. This is an exploratory signal from public open-source metadata — not a security audit, a certification, or an endorsement of the project."
+}

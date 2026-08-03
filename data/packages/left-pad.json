@@ -1,0 +1,111 @@
+{
+  "slug": "left-pad",
+  "name": "left-pad",
+  "display_name": "left-pad",
+  "ecosystem": "npm",
+  "repo": "left-pad/left-pad",
+  "data_source": "live",
+  "snapshot_date": "2026-07-26",
+  "facts": {
+    "scorecard": {
+      "score": 3.9
+    },
+    "vulns": {
+      "count": 0,
+      "max_severity": null
+    },
+    "maintenance": {
+      "last_release_days": 3030,
+      "last_commit_days": 2655,
+      "releases_past_year": 1
+    },
+    "bus_factor": {
+      "top_share": 0.5084745762711864,
+      "contributors": 16
+    },
+    "github": {
+      "stars": 1304,
+      "forks": 138,
+      "open_issues": 10,
+      "watchers": 1,
+      "archived": true,
+      "created_at": "2014-03-14T09:09:34Z",
+      "pushed_at": "2019-04-19T14:16:20Z",
+      "default_branch": "master",
+      "topics": [
+        "left",
+        "left-pad",
+        "leftpad",
+        "pad",
+        "padding",
+        "string-manipulation"
+      ],
+      "source_url": "https://github.com/left-pad/left-pad"
+    },
+    "registry": {
+      "current_version": "1.3.0",
+      "requires_runtime": null,
+      "description": "String left pad",
+      "package_url": "https://www.npmjs.com/package/left-pad",
+      "weekly_downloads": 1411458,
+      "source": "npm Registry API"
+    },
+    "license": {
+      "spdx_id": "WTFPL"
+    }
+  },
+  "signal": {
+    "score": 40,
+    "health_score": 60,
+    "band": "Moderate",
+    "coverage": 100,
+    "components": [
+      {
+        "key": "security_posture",
+        "label": "Security posture",
+        "weight": 0.25,
+        "value": 61,
+        "evidence": "OpenSSF Scorecard 3.9/10 → inverted to 61/100 risk",
+        "source": "OpenSSF Scorecard (via deps.dev)",
+        "confidence": "high"
+      },
+      {
+        "key": "known_vulns",
+        "label": "Known vulnerabilities",
+        "weight": 0.25,
+        "value": 0,
+        "evidence": "no package advisories returned by OSV",
+        "source": "OSV.dev",
+        "confidence": "high"
+      },
+      {
+        "key": "maintenance",
+        "label": "Maintenance / activity",
+        "weight": 0.2,
+        "value": 85,
+        "evidence": "3030d since last release, 2655d since last commit, 1 releases in the past year",
+        "source": "ecosyste.ms / GitHub",
+        "confidence": "high"
+      },
+      {
+        "key": "bus_factor",
+        "label": "Bus-factor (contributor concentration)",
+        "weight": 0.15,
+        "value": 44.1,
+        "evidence": "top contributor authored 51% of commits across 16 contributors",
+        "source": "GitHub contributors",
+        "confidence": "high"
+      },
+      {
+        "key": "license_risk",
+        "label": "License obligations",
+        "weight": 0.15,
+        "value": 5,
+        "evidence": "WTFPL (permissive) → permissive obligations",
+        "source": "SPDX license id (local classification)",
+        "confidence": "high"
+      }
+    ]
+  },
+  "summary": "left-pad carries an exploratory health/risk signal of 40/100 (Moderate; health 60/100), calculated from 100% available source coverage. Security posture: OpenSSF Scorecard 3.9/10 → inverted to 61/100 risk. Vulnerabilities: no package advisories returned by OSV. Maintenance: 3030d since last release, 2655d since last commit, 1 releases in the past year. WTFPL (permissive) → permissive obligations. This is an exploratory signal from public open-source metadata — not a security audit, a certification, or an endorsement of the project."
+}
