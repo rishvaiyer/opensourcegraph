@@ -64,11 +64,41 @@
       "signal_band": "Moderate"
     },
     {
+      "slug": "django",
+      "display_name": "django",
+      "name": "django",
+      "ecosystem": "pypi",
+      "repo": "django/django",
+      "signal_score": 34,
+      "health_score": 66,
+      "signal_band": "Moderate"
+    },
+    {
+      "slug": "fastapi",
+      "display_name": "fastapi",
+      "name": "fastapi",
+      "ecosystem": "pypi",
+      "repo": "fastapi/fastapi",
+      "signal_score": 34,
+      "health_score": 66,
+      "signal_band": "Moderate"
+    },
+    {
       "slug": "express",
       "display_name": "express",
       "name": "express",
       "ecosystem": "npm",
       "repo": "expressjs/express",
+      "signal_score": 32,
+      "health_score": 68,
+      "signal_band": "Moderate"
+    },
+    {
+      "slug": "vite",
+      "display_name": "vite",
+      "name": "vite",
+      "ecosystem": "npm",
+      "repo": "vitejs/vite",
       "signal_score": 32,
       "health_score": 68,
       "signal_band": "Moderate"
@@ -84,6 +114,16 @@
       "signal_band": "Low"
     },
     {
+      "slug": "pandas",
+      "display_name": "pandas",
+      "name": "pandas",
+      "ecosystem": "pypi",
+      "repo": "pandas-dev/pandas",
+      "signal_score": 28,
+      "health_score": 72,
+      "signal_band": "Low"
+    },
+    {
       "slug": "react",
       "display_name": "react",
       "name": "react",
@@ -91,6 +131,16 @@
       "repo": "facebook/react",
       "signal_score": 27,
       "health_score": 73,
+      "signal_band": "Low"
+    },
+    {
+      "slug": "axios",
+      "display_name": "axios",
+      "name": "axios",
+      "ecosystem": "npm",
+      "repo": "axios/axios",
+      "signal_score": 26,
+      "health_score": 74,
       "signal_band": "Low"
     }
   ]

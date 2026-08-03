@@ -1,0 +1,111 @@
+{
+  "slug": "fastapi",
+  "name": "fastapi",
+  "display_name": "fastapi",
+  "ecosystem": "pypi",
+  "repo": "fastapi/fastapi",
+  "data_source": "live",
+  "snapshot_date": "2026-08-03",
+  "facts": {
+    "scorecard": null,
+    "vulns": {
+      "count": 3,
+      "max_severity": "HIGH"
+    },
+    "maintenance": {
+      "last_release_days": 5,
+      "last_commit_days": 0,
+      "releases_past_year": 41
+    },
+    "bus_factor": {
+      "top_share": 0.5239094938185211,
+      "contributors": 100
+    },
+    "github": {
+      "stars": 101285,
+      "forks": 9728,
+      "open_issues": 78,
+      "watchers": 769,
+      "archived": false,
+      "created_at": "2018-12-08T08:21:47Z",
+      "pushed_at": "2026-08-03T20:17:29Z",
+      "default_branch": "master",
+      "topics": [
+        "api",
+        "async",
+        "asyncio",
+        "fastapi",
+        "framework",
+        "json",
+        "json-schema",
+        "openapi"
+      ],
+      "source_url": "https://github.com/fastapi/fastapi"
+    },
+    "registry": {
+      "current_version": "0.141.1",
+      "requires_runtime": ">=3.10",
+      "description": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
+      "package_url": "https://pypi.org/project/fastapi/",
+      "weekly_downloads": null,
+      "source": "PyPI JSON API"
+    },
+    "license": {
+      "spdx_id": "MIT"
+    }
+  },
+  "signal": {
+    "score": 34,
+    "health_score": 66,
+    "band": "Moderate",
+    "coverage": 75,
+    "components": [
+      {
+        "key": "security_posture",
+        "label": "Security posture",
+        "weight": 0.25,
+        "value": null,
+        "evidence": "no OpenSSF Scorecard returned — excluded from the combined signal",
+        "source": "OpenSSF Scorecard (via deps.dev)",
+        "confidence": "low"
+      },
+      {
+        "key": "known_vulns",
+        "label": "Known vulnerabilities",
+        "weight": 0.25,
+        "value": 70.4,
+        "evidence": "3 package advisories across versions in OSV (max severity HIGH)",
+        "source": "OSV.dev",
+        "confidence": "high"
+      },
+      {
+        "key": "maintenance",
+        "label": "Maintenance / activity",
+        "weight": 0.2,
+        "value": 0.4,
+        "evidence": "5d since last release, 0d since last commit, 41 releases in the past year",
+        "source": "ecosyste.ms / GitHub",
+        "confidence": "high"
+      },
+      {
+        "key": "bus_factor",
+        "label": "Bus-factor (contributor concentration)",
+        "weight": 0.15,
+        "value": 46.3,
+        "evidence": "top contributor authored 52% of commits across 100 contributors",
+        "source": "GitHub contributors",
+        "confidence": "high"
+      },
+      {
+        "key": "license_risk",
+        "label": "License obligations",
+        "weight": 0.15,
+        "value": 5,
+        "evidence": "MIT (permissive) → permissive obligations",
+        "source": "SPDX license id (local classification)",
+        "confidence": "high"
+      }
+    ]
+  },
+  "summary": "fastapi carries an exploratory health/risk signal of 34/100 (Moderate; health 66/100), calculated from 75% available source coverage. Security posture: no OpenSSF Scorecard returned — excluded from the combined signal. Vulnerabilities: 3 package advisories across versions in OSV (max severity HIGH). Maintenance: 5d since last release, 0d since last commit, 41 releases in the past year. MIT (permissive) → permissive obligations. This is an exploratory signal from public open-source metadata — not a security audit, a certification, or an endorsement of the project."
+}

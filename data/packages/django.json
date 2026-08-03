@@ -1,0 +1,113 @@
+{
+  "slug": "django",
+  "name": "django",
+  "display_name": "django",
+  "ecosystem": "pypi",
+  "repo": "django/django",
+  "data_source": "live",
+  "snapshot_date": "2026-08-03",
+  "facts": {
+    "scorecard": {
+      "score": 6.7
+    },
+    "vulns": {
+      "count": 313,
+      "max_severity": "CRITICAL"
+    },
+    "maintenance": {
+      "last_release_days": 27,
+      "last_commit_days": 0,
+      "releases_past_year": 27
+    },
+    "bus_factor": {
+      "top_share": 0.12622781012251313,
+      "contributors": 100
+    },
+    "github": {
+      "stars": 88323,
+      "forks": 34093,
+      "open_issues": 444,
+      "watchers": 2286,
+      "archived": false,
+      "created_at": "2012-04-28T02:47:18Z",
+      "pushed_at": "2026-08-03T15:11:31Z",
+      "default_branch": "main",
+      "topics": [
+        "apps",
+        "django",
+        "framework",
+        "models",
+        "orm",
+        "python",
+        "templates",
+        "views"
+      ],
+      "source_url": "https://github.com/django/django"
+    },
+    "registry": {
+      "current_version": "6.0.7",
+      "requires_runtime": ">=3.12",
+      "description": "A high-level Python web framework that encourages rapid development and clean, pragmatic design.",
+      "package_url": "https://pypi.org/project/django/",
+      "weekly_downloads": null,
+      "source": "PyPI JSON API"
+    },
+    "license": {
+      "spdx_id": "BSD-3-Clause"
+    }
+  },
+  "signal": {
+    "score": 34,
+    "health_score": 66,
+    "band": "Moderate",
+    "coverage": 100,
+    "components": [
+      {
+        "key": "security_posture",
+        "label": "Security posture",
+        "weight": 0.25,
+        "value": 33,
+        "evidence": "OpenSSF Scorecard 6.7/10 → inverted to 33/100 risk",
+        "source": "OpenSSF Scorecard (via deps.dev)",
+        "confidence": "high"
+      },
+      {
+        "key": "known_vulns",
+        "label": "Known vulnerabilities",
+        "weight": 0.25,
+        "value": 100,
+        "evidence": "313 package advisories across versions in OSV (max severity CRITICAL)",
+        "source": "OSV.dev",
+        "confidence": "high"
+      },
+      {
+        "key": "maintenance",
+        "label": "Maintenance / activity",
+        "weight": 0.2,
+        "value": 2,
+        "evidence": "27d since last release, 0d since last commit, 27 releases in the past year",
+        "source": "ecosyste.ms / GitHub",
+        "confidence": "high"
+      },
+      {
+        "key": "bus_factor",
+        "label": "Bus-factor (contributor concentration)",
+        "weight": 0.15,
+        "value": 0,
+        "evidence": "top contributor authored 13% of commits across 100 contributors",
+        "source": "GitHub contributors",
+        "confidence": "high"
+      },
+      {
+        "key": "license_risk",
+        "label": "License obligations",
+        "weight": 0.15,
+        "value": 5,
+        "evidence": "BSD-3-Clause (permissive) → permissive obligations",
+        "source": "SPDX license id (local classification)",
+        "confidence": "high"
+      }
+    ]
+  },
+  "summary": "django carries an exploratory health/risk signal of 34/100 (Moderate; health 66/100), calculated from 100% available source coverage. Security posture: OpenSSF Scorecard 6.7/10 → inverted to 33/100 risk. Vulnerabilities: 313 package advisories across versions in OSV (max severity CRITICAL). Maintenance: 27d since last release, 0d since last commit, 27 releases in the past year. BSD-3-Clause (permissive) → permissive obligations. This is an exploratory signal from public open-source metadata — not a security audit, a certification, or an endorsement of the project."
+}
