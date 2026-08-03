@@ -22,7 +22,7 @@
       "contributors": 100
     },
     "github": {
-      "stars": 101285,
+      "stars": 101286,
       "forks": 9728,
       "open_issues": 78,
       "watchers": 769,
@@ -52,7 +52,8 @@
     },
     "license": {
       "spdx_id": "MIT"
-    }
+    },
+    "downloads": null
   },
   "signal": {
     "score": 34,

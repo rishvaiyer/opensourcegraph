@@ -52,6 +52,10 @@
     },
     "license": {
       "spdx_id": "WTFPL"
+    },
+    "downloads": {
+      "last_month": 5215136,
+      "source": "npm downloads API"
     }
   },
   "signal": {

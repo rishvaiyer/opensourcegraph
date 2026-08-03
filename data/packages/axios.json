@@ -51,6 +51,10 @@
     },
     "license": {
       "spdx_id": "MIT"
+    },
+    "downloads": {
+      "last_month": 442047746,
+      "source": "npm downloads API"
     }
   },
   "signal": {

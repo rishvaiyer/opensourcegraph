@@ -24,7 +24,7 @@
       "contributors": 100
     },
     "github": {
-      "stars": 49408,
+      "stars": 49407,
       "forks": 20225,
       "open_issues": 2911,
       "watchers": 1125,
@@ -52,7 +52,8 @@
     },
     "license": {
       "spdx_id": "non-standard"
-    }
+    },
+    "downloads": null
   },
   "signal": {
     "score": 28,

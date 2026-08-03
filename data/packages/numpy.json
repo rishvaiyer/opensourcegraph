@@ -24,7 +24,7 @@
       "contributors": 100
     },
     "github": {
-      "stars": 32481,
+      "stars": 32480,
       "forks": 12614,
       "open_issues": 2318,
       "watchers": 602,
@@ -48,7 +48,8 @@
     },
     "license": {
       "spdx_id": "0BSD AND BSD-3-Clause AND CC0-1.0 AND MIT AND Zlib"
-    }
+    },
+    "downloads": null
   },
   "signal": {
     "score": 36,

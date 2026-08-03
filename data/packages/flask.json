@@ -53,7 +53,8 @@
     },
     "license": {
       "spdx_id": "BSD-3-Clause"
-    }
+    },
+    "downloads": null
   },
   "signal": {
     "score": 38,

@@ -26,7 +26,7 @@
     "github": {
       "stars": 82181,
       "forks": 8606,
-      "open_issues": 759,
+      "open_issues": 757,
       "watchers": 552,
       "archived": false,
       "created_at": "2020-04-21T05:03:57Z",
@@ -51,6 +51,10 @@
     },
     "license": {
       "spdx_id": "MIT"
+    },
+    "downloads": {
+      "last_month": 603693798,
+      "source": "npm downloads API"
     }
   },
   "signal": {
