@@ -16,7 +16,7 @@ certification, or an endorsement of (or a warning against) any project. Every
 score is labeled as an exploratory estimate, and low-confidence factors mean a
 source was missing — not that a project is fine.
 
-**Live:** https://rishiyer.up.railway.app/opensourcegraph/
+**Live:** https://rishva.up.railway.app/opensourcegraph/
 
 **Original home:** https://unevil-warden.github.io/unevil/opensourcegraph/ — my earlier GitHub account (unevil-warden), since retired; kept here as provenance.
 
