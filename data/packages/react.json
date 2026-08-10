@@ -5,7 +5,7 @@
   "ecosystem": "npm",
   "repo": "facebook/react",
   "data_source": "live",
-  "snapshot_date": "2026-08-03",
+  "snapshot_date": "2026-08-10",
   "facts": {
     "scorecard": null,
     "vulns": {
@@ -13,22 +13,22 @@
       "max_severity": "HIGH"
     },
     "maintenance": {
-      "last_release_days": 189,
-      "last_commit_days": 0,
-      "releases_past_year": 387
+      "last_release_days": 196,
+      "last_commit_days": 1,
+      "releases_past_year": 386
     },
     "bus_factor": {
-      "top_share": 0.1138913362701909,
+      "top_share": 0.11385789782736348,
       "contributors": 100
     },
     "github": {
-      "stars": 246939,
-      "forks": 51181,
-      "open_issues": 1241,
-      "watchers": 6595,
+      "stars": 247134,
+      "forks": 51211,
+      "open_issues": 1255,
+      "watchers": 6606,
       "archived": false,
       "created_at": "2013-05-24T16:15:54Z",
-      "pushed_at": "2026-08-03T15:36:07Z",
+      "pushed_at": "2026-08-09T19:15:07Z",
       "default_branch": "main",
       "topics": [
         "declarative",
@@ -45,14 +45,14 @@
       "requires_runtime": ">=0.10.0",
       "description": "React is a JavaScript library for building user interfaces.",
       "package_url": "https://www.npmjs.com/package/react",
-      "weekly_downloads": 162587700,
+      "weekly_downloads": 163083190,
       "source": "npm Registry API"
     },
     "license": {
       "spdx_id": "MIT"
     },
     "downloads": {
-      "last_month": 651130270,
+      "last_month": 663454644,
       "source": "npm downloads API"
     }
   },
@@ -84,8 +84,8 @@
         "key": "maintenance",
         "label": "Maintenance / activity",
         "weight": 0.2,
-        "value": 13.8,
-        "evidence": "189d since last release, 0d since last commit, 387 releases in the past year",
+        "value": 14.4,
+        "evidence": "196d since last release, 1d since last commit, 386 releases in the past year",
         "source": "ecosyste.ms / GitHub",
         "confidence": "high"
       },
@@ -109,5 +109,5 @@
       }
     ]
   },
-  "summary": "react carries an exploratory health/risk signal of 27/100 (Low; health 73/100), calculated from 75% available source coverage. Security posture: no OpenSSF Scorecard returned — excluded from the combined signal. Vulnerabilities: 2 package advisories across versions in OSV (max severity HIGH). Maintenance: 189d since last release, 0d since last commit, 387 releases in the past year. MIT (permissive) → permissive obligations. This is an exploratory signal from public open-source metadata — not a security audit, a certification, or an endorsement of the project."
+  "summary": "react carries an exploratory health/risk signal of 27/100 (Low; health 73/100), calculated from 75% available source coverage. Security posture: no OpenSSF Scorecard returned — excluded from the combined signal. Vulnerabilities: 2 package advisories across versions in OSV (max severity HIGH). Maintenance: 196d since last release, 1d since last commit, 386 releases in the past year. MIT (permissive) → permissive obligations. This is an exploratory signal from public open-source metadata — not a security audit, a certification, or an endorsement of the project."
 }

@@ -5,32 +5,32 @@
   "ecosystem": "npm",
   "repo": "vitejs/vite",
   "data_source": "live",
-  "snapshot_date": "2026-08-03",
+  "snapshot_date": "2026-08-10",
   "facts": {
     "scorecard": {
-      "score": 6.6
+      "score": 7
     },
     "vulns": {
       "count": 22,
       "max_severity": "HIGH"
     },
     "maintenance": {
-      "last_release_days": 131,
+      "last_release_days": 137,
       "last_commit_days": 0,
       "releases_past_year": 114
     },
     "bus_factor": {
-      "top_share": 0.24021997250343707,
+      "top_share": 0.2396508728179551,
       "contributors": 100
     },
     "github": {
-      "stars": 82181,
-      "forks": 8606,
-      "open_issues": 757,
-      "watchers": 552,
+      "stars": 82282,
+      "forks": 8619,
+      "open_issues": 773,
+      "watchers": 555,
       "archived": false,
       "created_at": "2020-04-21T05:03:57Z",
-      "pushed_at": "2026-08-03T13:44:13Z",
+      "pushed_at": "2026-08-10T06:17:17Z",
       "default_branch": "main",
       "topics": [
         "build-tool",
@@ -42,24 +42,24 @@
       "source_url": "https://github.com/vitejs/vite"
     },
     "registry": {
-      "current_version": "8.2.0",
+      "current_version": "8.2.1",
       "requires_runtime": "^20.19.0 || >=22.12.0",
       "description": "Native-ESM powered web dev build tool",
       "package_url": "https://www.npmjs.com/package/vite",
-      "weekly_downloads": 160889914,
+      "weekly_downloads": 164321250,
       "source": "npm Registry API"
     },
     "license": {
       "spdx_id": "MIT"
     },
     "downloads": {
-      "last_month": 603693798,
+      "last_month": 639516066,
       "source": "npm downloads API"
     }
   },
   "signal": {
-    "score": 32,
-    "health_score": 68,
+    "score": 31,
+    "health_score": 69,
     "band": "Moderate",
     "coverage": 100,
     "components": [
@@ -67,8 +67,8 @@
         "key": "security_posture",
         "label": "Security posture",
         "weight": 0.25,
-        "value": 34,
-        "evidence": "OpenSSF Scorecard 6.6/10 → inverted to 34/100 risk",
+        "value": 30,
+        "evidence": "OpenSSF Scorecard 7/10 → inverted to 30/100 risk",
         "source": "OpenSSF Scorecard (via deps.dev)",
         "confidence": "high"
       },
@@ -85,8 +85,8 @@
         "key": "maintenance",
         "label": "Maintenance / activity",
         "weight": 0.2,
-        "value": 9.6,
-        "evidence": "131d since last release, 0d since last commit, 114 releases in the past year",
+        "value": 10,
+        "evidence": "137d since last release, 0d since last commit, 114 releases in the past year",
         "source": "ecosyste.ms / GitHub",
         "confidence": "high"
       },
@@ -110,5 +110,5 @@
       }
     ]
   },
-  "summary": "vite carries an exploratory health/risk signal of 32/100 (Moderate; health 68/100), calculated from 100% available source coverage. Security posture: OpenSSF Scorecard 6.6/10 → inverted to 34/100 risk. Vulnerabilities: 22 package advisories across versions in OSV (max severity HIGH). Maintenance: 131d since last release, 0d since last commit, 114 releases in the past year. MIT (permissive) → permissive obligations. This is an exploratory signal from public open-source metadata — not a security audit, a certification, or an endorsement of the project."
+  "summary": "vite carries an exploratory health/risk signal of 31/100 (Moderate; health 69/100), calculated from 100% available source coverage. Security posture: OpenSSF Scorecard 7/10 → inverted to 30/100 risk. Vulnerabilities: 22 package advisories across versions in OSV (max severity HIGH). Maintenance: 137d since last release, 0d since last commit, 114 releases in the past year. MIT (permissive) → permissive obligations. This is an exploratory signal from public open-source metadata — not a security audit, a certification, or an endorsement of the project."
 }

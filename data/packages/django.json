@@ -5,32 +5,32 @@
   "ecosystem": "pypi",
   "repo": "django/django",
   "data_source": "live",
-  "snapshot_date": "2026-08-03",
+  "snapshot_date": "2026-08-10",
   "facts": {
     "scorecard": {
-      "score": 6.7
+      "score": 6.6
     },
     "vulns": {
-      "count": 313,
+      "count": 320,
       "max_severity": "CRITICAL"
     },
     "maintenance": {
-      "last_release_days": 27,
-      "last_commit_days": 0,
+      "last_release_days": 6,
+      "last_commit_days": 3,
       "releases_past_year": 27
     },
     "bus_factor": {
-      "top_share": 0.12622781012251313,
+      "top_share": 0.1261692252766869,
       "contributors": 100
     },
     "github": {
-      "stars": 88323,
-      "forks": 34093,
-      "open_issues": 444,
-      "watchers": 2286,
+      "stars": 88403,
+      "forks": 34127,
+      "open_issues": 457,
+      "watchers": 2281,
       "archived": false,
       "created_at": "2012-04-28T02:47:18Z",
-      "pushed_at": "2026-08-03T15:11:31Z",
+      "pushed_at": "2026-08-07T15:01:48Z",
       "default_branch": "main",
       "topics": [
         "apps",
@@ -45,7 +45,7 @@
       "source_url": "https://github.com/django/django"
     },
     "registry": {
-      "current_version": "6.0.7",
+      "current_version": "6.1",
       "requires_runtime": ">=3.12",
       "description": "A high-level Python web framework that encourages rapid development and clean, pragmatic design.",
       "package_url": "https://pypi.org/project/django/",
@@ -56,7 +56,7 @@
       "spdx_id": "BSD-3-Clause"
     },
     "downloads": {
-      "last_month": 53073974,
+      "last_month": 55309213,
       "source": "ecosyste.ms"
     }
   },
@@ -70,8 +70,8 @@
         "key": "security_posture",
         "label": "Security posture",
         "weight": 0.25,
-        "value": 33,
-        "evidence": "OpenSSF Scorecard 6.7/10 → inverted to 33/100 risk",
+        "value": 34,
+        "evidence": "OpenSSF Scorecard 6.6/10 → inverted to 34/100 risk",
         "source": "OpenSSF Scorecard (via deps.dev)",
         "confidence": "high"
       },
@@ -80,7 +80,7 @@
         "label": "Known vulnerabilities",
         "weight": 0.25,
         "value": 100,
-        "evidence": "313 package advisories across versions in OSV (max severity CRITICAL)",
+        "evidence": "320 package advisories across versions in OSV (max severity CRITICAL)",
         "source": "OSV.dev",
         "confidence": "high"
       },
@@ -88,8 +88,8 @@
         "key": "maintenance",
         "label": "Maintenance / activity",
         "weight": 0.2,
-        "value": 2,
-        "evidence": "27d since last release, 0d since last commit, 27 releases in the past year",
+        "value": 0.7,
+        "evidence": "6d since last release, 3d since last commit, 27 releases in the past year",
         "source": "ecosyste.ms / GitHub",
         "confidence": "high"
       },
@@ -113,5 +113,5 @@
       }
     ]
   },
-  "summary": "django carries an exploratory health/risk signal of 34/100 (Moderate; health 66/100), calculated from 100% available source coverage. Security posture: OpenSSF Scorecard 6.7/10 → inverted to 33/100 risk. Vulnerabilities: 313 package advisories across versions in OSV (max severity CRITICAL). Maintenance: 27d since last release, 0d since last commit, 27 releases in the past year. BSD-3-Clause (permissive) → permissive obligations. This is an exploratory signal from public open-source metadata — not a security audit, a certification, or an endorsement of the project."
+  "summary": "django carries an exploratory health/risk signal of 34/100 (Moderate; health 66/100), calculated from 100% available source coverage. Security posture: OpenSSF Scorecard 6.6/10 → inverted to 34/100 risk. Vulnerabilities: 320 package advisories across versions in OSV (max severity CRITICAL). Maintenance: 6d since last release, 3d since last commit, 27 releases in the past year. BSD-3-Clause (permissive) → permissive obligations. This is an exploratory signal from public open-source metadata — not a security audit, a certification, or an endorsement of the project."
 }
