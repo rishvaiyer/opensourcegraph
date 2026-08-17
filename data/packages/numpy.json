@@ -5,7 +5,7 @@
   "ecosystem": "pypi",
   "repo": "numpy/numpy",
   "data_source": "live",
-  "snapshot_date": "2026-08-10",
+  "snapshot_date": "2026-08-17",
   "facts": {
     "scorecard": {
       "score": 7.5
@@ -15,22 +15,22 @@
       "max_severity": "CRITICAL"
     },
     "maintenance": {
-      "last_release_days": 190,
-      "last_commit_days": 0,
+      "last_release_days": 8,
+      "last_commit_days": 1,
       "releases_past_year": 9
     },
     "bus_factor": {
-      "top_share": 0.20925883300725054,
+      "top_share": 0.20902169228559114,
       "contributors": 100
     },
     "github": {
-      "stars": 32529,
-      "forks": 12625,
-      "open_issues": 2330,
-      "watchers": 601,
+      "stars": 32544,
+      "forks": 12635,
+      "open_issues": 2337,
+      "watchers": 600,
       "archived": false,
       "created_at": "2010-09-13T23:02:39Z",
-      "pushed_at": "2026-08-09T22:36:37Z",
+      "pushed_at": "2026-08-16T14:31:56Z",
       "default_branch": "main",
       "topics": [
         "numpy",
@@ -50,13 +50,13 @@
       "spdx_id": "0BSD AND BSD-3-Clause AND CC0-1.0 AND MIT AND Zlib"
     },
     "downloads": {
-      "last_month": 663399242,
-      "source": "ecosyste.ms"
+      "last_month": 1154008384,
+      "source": "pypistats.org"
     }
   },
   "signal": {
-    "score": 36,
-    "health_score": 64,
+    "score": 33,
+    "health_score": 67,
     "band": "Moderate",
     "coverage": 100,
     "components": [
@@ -82,8 +82,8 @@
         "key": "maintenance",
         "label": "Maintenance / activity",
         "weight": 0.2,
-        "value": 18.9,
-        "evidence": "190d since last release, 0d since last commit, 9 releases in the past year",
+        "value": 5.7,
+        "evidence": "8d since last release, 1d since last commit, 9 releases in the past year",
         "source": "ecosyste.ms / GitHub",
         "confidence": "high"
       },
@@ -107,5 +107,5 @@
       }
     ]
   },
-  "summary": "numpy carries an exploratory health/risk signal of 36/100 (Moderate; health 64/100), calculated from 100% available source coverage. Security posture: OpenSSF Scorecard 7.5/10 → inverted to 25/100 risk. Vulnerabilities: 16 package advisories across versions in OSV (max severity CRITICAL). Maintenance: 190d since last release, 0d since last commit, 9 releases in the past year. 0BSD AND BSD-3-Clause AND CC0-1.0 AND MIT AND Zlib (permissive) → permissive obligations. This is an exploratory signal from public open-source metadata — not a security audit, a certification, or an endorsement of the project."
+  "summary": "numpy carries an exploratory health/risk signal of 33/100 (Moderate; health 67/100), calculated from 100% available source coverage. Security posture: OpenSSF Scorecard 7.5/10 → inverted to 25/100 risk. Vulnerabilities: 16 package advisories across versions in OSV (max severity CRITICAL). Maintenance: 8d since last release, 1d since last commit, 9 releases in the past year. 0BSD AND BSD-3-Clause AND CC0-1.0 AND MIT AND Zlib (permissive) → permissive obligations. This is an exploratory signal from public open-source metadata — not a security audit, a certification, or an endorsement of the project."
 }

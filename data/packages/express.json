@@ -5,7 +5,7 @@
   "ecosystem": "npm",
   "repo": "expressjs/express",
   "data_source": "live",
-  "snapshot_date": "2026-08-10",
+  "snapshot_date": "2026-08-17",
   "facts": {
     "scorecard": {
       "score": 8.5
@@ -15,8 +15,8 @@
       "max_severity": "MODERATE"
     },
     "maintenance": {
-      "last_release_days": 251,
-      "last_commit_days": 9,
+      "last_release_days": 258,
+      "last_commit_days": 16,
       "releases_past_year": 18
     },
     "bus_factor": {
@@ -24,10 +24,10 @@
       "contributors": 100
     },
     "github": {
-      "stars": 69365,
-      "forks": 24615,
+      "stars": 69374,
+      "forks": 24677,
       "open_issues": 228,
-      "watchers": 1721,
+      "watchers": 1714,
       "archived": false,
       "created_at": "2009-06-26T18:56:01Z",
       "pushed_at": "2026-08-01T09:58:10Z",
@@ -45,14 +45,14 @@
       "requires_runtime": ">= 18",
       "description": "Fast, unopinionated, minimalist web framework",
       "package_url": "https://www.npmjs.com/package/express",
-      "weekly_downloads": 127296948,
+      "weekly_downloads": 109881741,
       "source": "npm Registry API"
     },
     "license": {
       "spdx_id": "MIT"
     },
     "downloads": {
-      "last_month": 507229060,
+      "last_month": 516230387,
       "source": "npm downloads API"
     }
   },
@@ -84,8 +84,8 @@
         "key": "maintenance",
         "label": "Maintenance / activity",
         "weight": 0.2,
-        "value": 19,
-        "evidence": "251d since last release, 9d since last commit, 18 releases in the past year",
+        "value": 20,
+        "evidence": "258d since last release, 16d since last commit, 18 releases in the past year",
         "source": "ecosyste.ms / GitHub",
         "confidence": "high"
       },
@@ -109,5 +109,5 @@
       }
     ]
   },
-  "summary": "express carries an exploratory health/risk signal of 32/100 (Moderate; health 68/100), calculated from 100% available source coverage. Security posture: OpenSSF Scorecard 8.5/10 → inverted to 15/100 risk. Vulnerabilities: 5 package advisories across versions in OSV (max severity MODERATE). Maintenance: 251d since last release, 9d since last commit, 18 releases in the past year. MIT (permissive) → permissive obligations. This is an exploratory signal from public open-source metadata — not a security audit, a certification, or an endorsement of the project."
+  "summary": "express carries an exploratory health/risk signal of 32/100 (Moderate; health 68/100), calculated from 100% available source coverage. Security posture: OpenSSF Scorecard 8.5/10 → inverted to 15/100 risk. Vulnerabilities: 5 package advisories across versions in OSV (max severity MODERATE). Maintenance: 258d since last release, 16d since last commit, 18 releases in the past year. MIT (permissive) → permissive obligations. This is an exploratory signal from public open-source metadata — not a security audit, a certification, or an endorsement of the project."
 }

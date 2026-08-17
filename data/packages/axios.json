@@ -5,32 +5,32 @@
   "ecosystem": "npm",
   "repo": "axios/axios",
   "data_source": "live",
-  "snapshot_date": "2026-08-10",
+  "snapshot_date": "2026-08-17",
   "facts": {
     "scorecard": {
-      "score": 8.2
+      "score": 8.1
     },
     "vulns": {
       "count": 44,
       "max_severity": "HIGH"
     },
     "maintenance": {
-      "last_release_days": 12,
-      "last_commit_days": 1,
+      "last_release_days": 19,
+      "last_commit_days": 4,
       "releases_past_year": 12
     },
     "bus_factor": {
-      "top_share": 0.20429407937540664,
+      "top_share": 0.20349967595593,
       "contributors": 100
     },
     "github": {
-      "stars": 109242,
-      "forks": 11810,
+      "stars": 109207,
+      "forks": 11819,
       "open_issues": 65,
-      "watchers": 1174,
+      "watchers": 1173,
       "archived": false,
       "created_at": "2014-08-18T22:30:27Z",
-      "pushed_at": "2026-08-09T08:34:44Z",
+      "pushed_at": "2026-08-13T18:14:46Z",
       "default_branch": "v1.x",
       "topics": [
         "hacktoberfest",
@@ -46,14 +46,14 @@
       "requires_runtime": null,
       "description": "Promise based HTTP client for the browser and node.js",
       "package_url": "https://www.npmjs.com/package/axios",
-      "weekly_downloads": 119805667,
+      "weekly_downloads": 101683898,
       "source": "npm Registry API"
     },
     "license": {
       "spdx_id": "MIT"
     },
     "downloads": {
-      "last_month": 472326552,
+      "last_month": 477542377,
       "source": "npm downloads API"
     }
   },
@@ -67,8 +67,8 @@
         "key": "security_posture",
         "label": "Security posture",
         "weight": 0.25,
-        "value": 18,
-        "evidence": "OpenSSF Scorecard 8.2/10 → inverted to 18/100 risk",
+        "value": 19,
+        "evidence": "OpenSSF Scorecard 8.1/10 → inverted to 19/100 risk",
         "source": "OpenSSF Scorecard (via deps.dev)",
         "confidence": "high"
       },
@@ -85,8 +85,8 @@
         "key": "maintenance",
         "label": "Maintenance / activity",
         "weight": 0.2,
-        "value": 0.9,
-        "evidence": "12d since last release, 1d since last commit, 12 releases in the past year",
+        "value": 1.7,
+        "evidence": "19d since last release, 4d since last commit, 12 releases in the past year",
         "source": "ecosyste.ms / GitHub",
         "confidence": "high"
       },
@@ -94,7 +94,7 @@
         "key": "bus_factor",
         "label": "Bus-factor (contributor concentration)",
         "weight": 0.15,
-        "value": 0.6,
+        "value": 0.5,
         "evidence": "top contributor authored 20% of commits across 100 contributors",
         "source": "GitHub contributors",
         "confidence": "high"
@@ -110,5 +110,5 @@
       }
     ]
   },
-  "summary": "axios carries an exploratory health/risk signal of 26/100 (Low; health 74/100), calculated from 100% available source coverage. Security posture: OpenSSF Scorecard 8.2/10 → inverted to 18/100 risk. Vulnerabilities: 44 package advisories across versions in OSV (max severity HIGH). Maintenance: 12d since last release, 1d since last commit, 12 releases in the past year. MIT (permissive) → permissive obligations. This is an exploratory signal from public open-source metadata — not a security audit, a certification, or an endorsement of the project."
+  "summary": "axios carries an exploratory health/risk signal of 26/100 (Low; health 74/100), calculated from 100% available source coverage. Security posture: OpenSSF Scorecard 8.1/10 → inverted to 19/100 risk. Vulnerabilities: 44 package advisories across versions in OSV (max severity HIGH). Maintenance: 19d since last release, 4d since last commit, 12 releases in the past year. MIT (permissive) → permissive obligations. This is an exploratory signal from public open-source metadata — not a security audit, a certification, or an endorsement of the project."
 }

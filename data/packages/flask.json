@@ -5,7 +5,7 @@
   "ecosystem": "pypi",
   "repo": "pallets/flask",
   "data_source": "live",
-  "snapshot_date": "2026-08-10",
+  "snapshot_date": "2026-08-17",
   "facts": {
     "scorecard": {
       "score": 7.1
@@ -15,22 +15,22 @@
       "max_severity": "HIGH"
     },
     "maintenance": {
-      "last_release_days": 172,
-      "last_commit_days": 11,
+      "last_release_days": 179,
+      "last_commit_days": 1,
       "releases_past_year": 4
     },
     "bus_factor": {
-      "top_share": 0.40625,
+      "top_share": 0.4074236766966835,
       "contributors": 100
     },
     "github": {
-      "stars": 72182,
-      "forks": 16937,
-      "open_issues": 8,
-      "watchers": 2094,
+      "stars": 72155,
+      "forks": 16933,
+      "open_issues": 3,
+      "watchers": 2098,
       "archived": false,
       "created_at": "2010-04-06T11:11:59Z",
-      "pushed_at": "2026-07-30T17:29:53Z",
+      "pushed_at": "2026-08-16T18:35:35Z",
       "default_branch": "main",
       "topics": [
         "flask",
@@ -55,8 +55,8 @@
       "spdx_id": "BSD-3-Clause"
     },
     "downloads": {
-      "last_month": 205340672,
-      "source": "ecosyste.ms"
+      "last_month": 202967796,
+      "source": "pypistats.org"
     }
   },
   "signal": {
@@ -87,8 +87,8 @@
         "key": "maintenance",
         "label": "Maintenance / activity",
         "weight": 0.2,
-        "value": 26.7,
-        "evidence": "172d since last release, 11d since last commit, 4 releases in the past year",
+        "value": 26.5,
+        "evidence": "179d since last release, 1d since last commit, 4 releases in the past year",
         "source": "ecosyste.ms / GitHub",
         "confidence": "high"
       },
@@ -96,7 +96,7 @@
         "key": "bus_factor",
         "label": "Bus-factor (contributor concentration)",
         "weight": 0.15,
-        "value": 29.5,
+        "value": 29.6,
         "evidence": "top contributor authored 41% of commits across 100 contributors",
         "source": "GitHub contributors",
         "confidence": "high"
@@ -112,5 +112,5 @@
       }
     ]
   },
-  "summary": "flask carries an exploratory health/risk signal of 38/100 (Moderate; health 62/100), calculated from 100% available source coverage. Security posture: OpenSSF Scorecard 7.1/10 → inverted to 29/100 risk. Vulnerabilities: 10 package advisories across versions in OSV (max severity HIGH). Maintenance: 172d since last release, 11d since last commit, 4 releases in the past year. BSD-3-Clause (permissive) → permissive obligations. This is an exploratory signal from public open-source metadata — not a security audit, a certification, or an endorsement of the project."
+  "summary": "flask carries an exploratory health/risk signal of 38/100 (Moderate; health 62/100), calculated from 100% available source coverage. Security posture: OpenSSF Scorecard 7.1/10 → inverted to 29/100 risk. Vulnerabilities: 10 package advisories across versions in OSV (max severity HIGH). Maintenance: 179d since last release, 1d since last commit, 4 releases in the past year. BSD-3-Clause (permissive) → permissive obligations. This is an exploratory signal from public open-source metadata — not a security audit, a certification, or an endorsement of the project."
 }

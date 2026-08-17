@@ -5,7 +5,7 @@
   "ecosystem": "npm",
   "repo": "lodash/lodash",
   "data_source": "live",
-  "snapshot_date": "2026-08-10",
+  "snapshot_date": "2026-08-17",
   "facts": {
     "scorecard": {
       "score": 7.5
@@ -15,8 +15,8 @@
       "max_severity": "CRITICAL"
     },
     "maintenance": {
-      "last_release_days": 130,
-      "last_commit_days": 38,
+      "last_release_days": 137,
+      "last_commit_days": 44,
       "releases_past_year": 8
     },
     "bus_factor": {
@@ -24,10 +24,10 @@
       "contributors": 100
     },
     "github": {
-      "stars": 61301,
-      "forks": 7202,
-      "open_issues": 100,
-      "watchers": 816,
+      "stars": 61295,
+      "forks": 7199,
+      "open_issues": 106,
+      "watchers": 812,
       "archived": false,
       "created_at": "2012-04-07T04:11:46Z",
       "pushed_at": "2026-07-03T19:48:01Z",
@@ -45,20 +45,20 @@
       "requires_runtime": null,
       "description": "Lodash modular utilities.",
       "package_url": "https://www.npmjs.com/package/lodash",
-      "weekly_downloads": 167905798,
+      "weekly_downloads": 144394777,
       "source": "npm Registry API"
     },
     "license": {
       "spdx_id": "MIT"
     },
     "downloads": {
-      "last_month": 672688542,
+      "last_month": 679292655,
       "source": "npm downloads API"
     }
   },
   "signal": {
-    "score": 50,
-    "health_score": 50,
+    "score": 51,
+    "health_score": 49,
     "band": "Elevated",
     "coverage": 100,
     "components": [
@@ -84,8 +84,8 @@
         "key": "maintenance",
         "label": "Maintenance / activity",
         "weight": 0.2,
-        "value": 18.9,
-        "evidence": "130d since last release, 38d since last commit, 8 releases in the past year",
+        "value": 19.9,
+        "evidence": "137d since last release, 44d since last commit, 8 releases in the past year",
         "source": "ecosyste.ms / GitHub",
         "confidence": "high"
       },
@@ -109,5 +109,5 @@
       }
     ]
   },
-  "summary": "lodash carries an exploratory health/risk signal of 50/100 (Elevated; health 50/100), calculated from 100% available source coverage. Security posture: OpenSSF Scorecard 7.5/10 → inverted to 25/100 risk. Vulnerabilities: 10 package advisories across versions in OSV (max severity CRITICAL). Maintenance: 130d since last release, 38d since last commit, 8 releases in the past year. MIT (permissive) → permissive obligations. This is an exploratory signal from public open-source metadata — not a security audit, a certification, or an endorsement of the project."
+  "summary": "lodash carries an exploratory health/risk signal of 51/100 (Elevated; health 49/100), calculated from 100% available source coverage. Security posture: OpenSSF Scorecard 7.5/10 → inverted to 25/100 risk. Vulnerabilities: 10 package advisories across versions in OSV (max severity CRITICAL). Maintenance: 137d since last release, 44d since last commit, 8 releases in the past year. MIT (permissive) → permissive obligations. This is an exploratory signal from public open-source metadata — not a security audit, a certification, or an endorsement of the project."
 }

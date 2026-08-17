@@ -5,7 +5,7 @@
   "ecosystem": "pypi",
   "repo": "psf/requests",
   "data_source": "live",
-  "snapshot_date": "2026-08-10",
+  "snapshot_date": "2026-08-17",
   "facts": {
     "scorecard": {
       "score": 8.2
@@ -15,22 +15,22 @@
       "max_severity": "HIGH"
     },
     "maintenance": {
-      "last_release_days": 88,
-      "last_commit_days": 7,
-      "releases_past_year": 55
+      "last_release_days": 95,
+      "last_commit_days": 6,
+      "releases_past_year": 54
     },
     "bus_factor": {
-      "top_share": 0.3080220453153705,
+      "top_share": 0.307927762473217,
       "contributors": 100
     },
     "github": {
-      "stars": 54268,
-      "forks": 10082,
-      "open_issues": 233,
+      "stars": 54242,
+      "forks": 10095,
+      "open_issues": 234,
       "watchers": 1306,
       "archived": false,
       "created_at": "2011-02-13T18:38:17Z",
-      "pushed_at": "2026-08-03T17:52:46Z",
+      "pushed_at": "2026-08-11T16:14:28Z",
       "default_branch": "main",
       "topics": [
         "client",
@@ -56,8 +56,8 @@
       "spdx_id": "Apache-2.0"
     },
     "downloads": {
-      "last_month": 1715479760,
-      "source": "ecosyste.ms"
+      "last_month": 1746548868,
+      "source": "pypistats.org"
     }
   },
   "signal": {
@@ -88,8 +88,8 @@
         "key": "maintenance",
         "label": "Maintenance / activity",
         "weight": 0.2,
-        "value": 6.9,
-        "evidence": "88d since last release, 7d since last commit, 55 releases in the past year",
+        "value": 7.4,
+        "evidence": "95d since last release, 6d since last commit, 54 releases in the past year",
         "source": "ecosyste.ms / GitHub",
         "confidence": "high"
       },
@@ -113,5 +113,5 @@
       }
     ]
   },
-  "summary": "requests carries an exploratory health/risk signal of 29/100 (Low; health 71/100), calculated from 100% available source coverage. Security posture: OpenSSF Scorecard 8.2/10 → inverted to 18/100 risk. Vulnerabilities: 16 package advisories across versions in OSV (max severity HIGH). Maintenance: 88d since last release, 7d since last commit, 55 releases in the past year. Apache-2.0 (permissive) → permissive obligations. This is an exploratory signal from public open-source metadata — not a security audit, a certification, or an endorsement of the project."
+  "summary": "requests carries an exploratory health/risk signal of 29/100 (Low; health 71/100), calculated from 100% available source coverage. Security posture: OpenSSF Scorecard 8.2/10 → inverted to 18/100 risk. Vulnerabilities: 16 package advisories across versions in OSV (max severity HIGH). Maintenance: 95d since last release, 6d since last commit, 54 releases in the past year. Apache-2.0 (permissive) → permissive obligations. This is an exploratory signal from public open-source metadata — not a security audit, a certification, or an endorsement of the project."
 }

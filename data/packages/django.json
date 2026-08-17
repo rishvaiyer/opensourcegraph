@@ -5,32 +5,32 @@
   "ecosystem": "pypi",
   "repo": "django/django",
   "data_source": "live",
-  "snapshot_date": "2026-08-10",
+  "snapshot_date": "2026-08-17",
   "facts": {
     "scorecard": {
-      "score": 6.6
+      "score": 6.7
     },
     "vulns": {
       "count": 320,
       "max_severity": "CRITICAL"
     },
     "maintenance": {
-      "last_release_days": 6,
-      "last_commit_days": 3,
+      "last_release_days": 13,
+      "last_commit_days": 2,
       "releases_past_year": 27
     },
     "bus_factor": {
-      "top_share": 0.1261692252766869,
+      "top_share": 0.12611969594232897,
       "contributors": 100
     },
     "github": {
-      "stars": 88403,
-      "forks": 34127,
-      "open_issues": 457,
-      "watchers": 2281,
+      "stars": 88427,
+      "forks": 34143,
+      "open_issues": 459,
+      "watchers": 2280,
       "archived": false,
       "created_at": "2012-04-28T02:47:18Z",
-      "pushed_at": "2026-08-07T15:01:48Z",
+      "pushed_at": "2026-08-15T15:55:33Z",
       "default_branch": "main",
       "topics": [
         "apps",
@@ -56,8 +56,8 @@
       "spdx_id": "BSD-3-Clause"
     },
     "downloads": {
-      "last_month": 55309213,
-      "source": "ecosyste.ms"
+      "last_month": 53719840,
+      "source": "pypistats.org"
     }
   },
   "signal": {
@@ -70,8 +70,8 @@
         "key": "security_posture",
         "label": "Security posture",
         "weight": 0.25,
-        "value": 34,
-        "evidence": "OpenSSF Scorecard 6.6/10 → inverted to 34/100 risk",
+        "value": 33,
+        "evidence": "OpenSSF Scorecard 6.7/10 → inverted to 33/100 risk",
         "source": "OpenSSF Scorecard (via deps.dev)",
         "confidence": "high"
       },
@@ -88,8 +88,8 @@
         "key": "maintenance",
         "label": "Maintenance / activity",
         "weight": 0.2,
-        "value": 0.7,
-        "evidence": "6d since last release, 3d since last commit, 27 releases in the past year",
+        "value": 1.1,
+        "evidence": "13d since last release, 2d since last commit, 27 releases in the past year",
         "source": "ecosyste.ms / GitHub",
         "confidence": "high"
       },
@@ -113,5 +113,5 @@
       }
     ]
   },
-  "summary": "django carries an exploratory health/risk signal of 34/100 (Moderate; health 66/100), calculated from 100% available source coverage. Security posture: OpenSSF Scorecard 6.6/10 → inverted to 34/100 risk. Vulnerabilities: 320 package advisories across versions in OSV (max severity CRITICAL). Maintenance: 6d since last release, 3d since last commit, 27 releases in the past year. BSD-3-Clause (permissive) → permissive obligations. This is an exploratory signal from public open-source metadata — not a security audit, a certification, or an endorsement of the project."
+  "summary": "django carries an exploratory health/risk signal of 34/100 (Moderate; health 66/100), calculated from 100% available source coverage. Security posture: OpenSSF Scorecard 6.7/10 → inverted to 33/100 risk. Vulnerabilities: 320 package advisories across versions in OSV (max severity CRITICAL). Maintenance: 13d since last release, 2d since last commit, 27 releases in the past year. BSD-3-Clause (permissive) → permissive obligations. This is an exploratory signal from public open-source metadata — not a security audit, a certification, or an endorsement of the project."
 }

@@ -5,7 +5,7 @@
   "ecosystem": "npm",
   "repo": "chalk/chalk",
   "data_source": "live",
-  "snapshot_date": "2026-08-10",
+  "snapshot_date": "2026-08-17",
   "facts": {
     "scorecard": {
       "score": 4.6
@@ -15,8 +15,8 @@
       "max_severity": null
     },
     "maintenance": {
-      "last_release_days": 15,
-      "last_commit_days": 15,
+      "last_release_days": 22,
+      "last_commit_days": 22,
       "releases_past_year": 3
     },
     "bus_factor": {
@@ -24,10 +24,10 @@
       "contributors": 58
     },
     "github": {
-      "stars": 23296,
-      "forks": 1019,
+      "stars": 23306,
+      "forks": 1023,
       "open_issues": 0,
-      "watchers": 140,
+      "watchers": 141,
       "archived": false,
       "created_at": "2013-08-03T00:20:12Z",
       "pushed_at": "2026-07-26T14:51:04Z",
@@ -49,14 +49,14 @@
       "requires_runtime": ">=22",
       "description": "Terminal string styling done right",
       "package_url": "https://www.npmjs.com/package/chalk",
-      "weekly_downloads": 490712867,
+      "weekly_downloads": 422199668,
       "source": "npm Registry API"
     },
     "license": {
       "spdx_id": "MIT"
     },
     "downloads": {
-      "last_month": 1930852396,
+      "last_month": 1953328970,
       "source": "npm downloads API"
     }
   },
@@ -88,8 +88,8 @@
         "key": "maintenance",
         "label": "Maintenance / activity",
         "weight": 0.2,
-        "value": 17.2,
-        "evidence": "15d since last release, 15d since last commit, 3 releases in the past year",
+        "value": 18.2,
+        "evidence": "22d since last release, 22d since last commit, 3 releases in the past year",
         "source": "ecosyste.ms / GitHub",
         "confidence": "high"
       },
@@ -113,5 +113,5 @@
       }
     ]
   },
-  "summary": "chalk carries an exploratory health/risk signal of 36/100 (Moderate; health 64/100), calculated from 100% available source coverage. Security posture: OpenSSF Scorecard 4.6/10 → inverted to 54/100 risk. Vulnerabilities: 1 package advisory across versions in OSV (max severity unknown). Maintenance: 15d since last release, 15d since last commit, 3 releases in the past year. MIT (permissive) → permissive obligations. This is an exploratory signal from public open-source metadata — not a security audit, a certification, or an endorsement of the project."
+  "summary": "chalk carries an exploratory health/risk signal of 36/100 (Moderate; health 64/100), calculated from 100% available source coverage. Security posture: OpenSSF Scorecard 4.6/10 → inverted to 54/100 risk. Vulnerabilities: 1 package advisory across versions in OSV (max severity unknown). Maintenance: 22d since last release, 22d since last commit, 3 releases in the past year. MIT (permissive) → permissive obligations. This is an exploratory signal from public open-source metadata — not a security audit, a certification, or an endorsement of the project."
 }

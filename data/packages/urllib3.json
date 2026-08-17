@@ -5,7 +5,7 @@
   "ecosystem": "pypi",
   "repo": "urllib3/urllib3",
   "data_source": "live",
-  "snapshot_date": "2026-08-10",
+  "snapshot_date": "2026-08-17",
   "facts": {
     "scorecard": {
       "score": 8.6
@@ -15,8 +15,8 @@
       "max_severity": "CRITICAL"
     },
     "maintenance": {
-      "last_release_days": 95,
-      "last_commit_days": 4,
+      "last_release_days": 102,
+      "last_commit_days": 6,
       "releases_past_year": 6
     },
     "bus_factor": {
@@ -24,13 +24,13 @@
       "contributors": 100
     },
     "github": {
-      "stars": 4047,
-      "forks": 1500,
-      "open_issues": 203,
+      "stars": 4051,
+      "forks": 1505,
+      "open_issues": 211,
       "watchers": 97,
       "archived": false,
       "created_at": "2011-09-18T18:08:28Z",
-      "pushed_at": "2026-08-06T14:06:45Z",
+      "pushed_at": "2026-08-10T20:38:15Z",
       "default_branch": "main",
       "topics": [
         "http",
@@ -52,7 +52,7 @@
       "spdx_id": "MIT"
     },
     "downloads": {
-      "last_month": 1791122922,
+      "last_month": 1836415281,
       "source": "pypistats.org"
     }
   },
@@ -84,8 +84,8 @@
         "key": "maintenance",
         "label": "Maintenance / activity",
         "weight": 0.2,
-        "value": 17.2,
-        "evidence": "95d since last release, 4d since last commit, 6 releases in the past year",
+        "value": 17.9,
+        "evidence": "102d since last release, 6d since last commit, 6 releases in the past year",
         "source": "ecosyste.ms / GitHub",
         "confidence": "high"
       },
@@ -109,5 +109,5 @@
       }
     ]
   },
-  "summary": "urllib3 carries an exploratory health/risk signal of 35/100 (Moderate; health 65/100), calculated from 100% available source coverage. Security posture: OpenSSF Scorecard 8.6/10 → inverted to 14/100 risk. Vulnerabilities: 38 package advisories across versions in OSV (max severity CRITICAL). Maintenance: 95d since last release, 4d since last commit, 6 releases in the past year. MIT (permissive) → permissive obligations. This is an exploratory signal from public open-source metadata — not a security audit, a certification, or an endorsement of the project."
+  "summary": "urllib3 carries an exploratory health/risk signal of 35/100 (Moderate; health 65/100), calculated from 100% available source coverage. Security posture: OpenSSF Scorecard 8.6/10 → inverted to 14/100 risk. Vulnerabilities: 38 package advisories across versions in OSV (max severity CRITICAL). Maintenance: 102d since last release, 6d since last commit, 6 releases in the past year. MIT (permissive) → permissive obligations. This is an exploratory signal from public open-source metadata — not a security audit, a certification, or an endorsement of the project."
 }

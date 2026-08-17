@@ -5,7 +5,7 @@
   "ecosystem": "pypi",
   "repo": "fastapi/fastapi",
   "data_source": "live",
-  "snapshot_date": "2026-08-10",
+  "snapshot_date": "2026-08-17",
   "facts": {
     "scorecard": null,
     "vulns": {
@@ -13,22 +13,22 @@
       "max_severity": "HIGH"
     },
     "maintenance": {
-      "last_release_days": 12,
-      "last_commit_days": 0,
+      "last_release_days": 19,
+      "last_commit_days": 2,
       "releases_past_year": 41
     },
     "bus_factor": {
-      "top_share": 0.5223534862172805,
+      "top_share": 0.5213675213675214,
       "contributors": 100
     },
     "github": {
-      "stars": 101456,
-      "forks": 9760,
-      "open_issues": 72,
-      "watchers": 775,
+      "stars": 101629,
+      "forks": 9784,
+      "open_issues": 85,
+      "watchers": 765,
       "archived": false,
       "created_at": "2018-12-08T08:21:47Z",
-      "pushed_at": "2026-08-10T07:51:15Z",
+      "pushed_at": "2026-08-15T05:17:14Z",
       "default_branch": "master",
       "topics": [
         "api",
@@ -54,7 +54,7 @@
       "spdx_id": "MIT"
     },
     "downloads": {
-      "last_month": 574247225,
+      "last_month": 595155232,
       "source": "pypistats.org"
     }
   },
@@ -86,8 +86,8 @@
         "key": "maintenance",
         "label": "Maintenance / activity",
         "weight": 0.2,
-        "value": 0.9,
-        "evidence": "12d since last release, 0d since last commit, 41 releases in the past year",
+        "value": 1.5,
+        "evidence": "19d since last release, 2d since last commit, 41 releases in the past year",
         "source": "ecosyste.ms / GitHub",
         "confidence": "high"
       },
@@ -95,7 +95,7 @@
         "key": "bus_factor",
         "label": "Bus-factor (contributor concentration)",
         "weight": 0.15,
-        "value": 46.1,
+        "value": 45.9,
         "evidence": "top contributor authored 52% of commits across 100 contributors",
         "source": "GitHub contributors",
         "confidence": "high"
@@ -111,5 +111,5 @@
       }
     ]
   },
-  "summary": "fastapi carries an exploratory health/risk signal of 34/100 (Moderate; health 66/100), calculated from 75% available source coverage. Security posture: no OpenSSF Scorecard returned — excluded from the combined signal. Vulnerabilities: 3 package advisories across versions in OSV (max severity HIGH). Maintenance: 12d since last release, 0d since last commit, 41 releases in the past year. MIT (permissive) → permissive obligations. This is an exploratory signal from public open-source metadata — not a security audit, a certification, or an endorsement of the project."
+  "summary": "fastapi carries an exploratory health/risk signal of 34/100 (Moderate; health 66/100), calculated from 75% available source coverage. Security posture: no OpenSSF Scorecard returned — excluded from the combined signal. Vulnerabilities: 3 package advisories across versions in OSV (max severity HIGH). Maintenance: 19d since last release, 2d since last commit, 41 releases in the past year. MIT (permissive) → permissive obligations. This is an exploratory signal from public open-source metadata — not a security audit, a certification, or an endorsement of the project."
 }

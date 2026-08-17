@@ -5,32 +5,32 @@
   "ecosystem": "pypi",
   "repo": "pandas-dev/pandas",
   "data_source": "live",
-  "snapshot_date": "2026-08-10",
+  "snapshot_date": "2026-08-17",
   "facts": {
     "scorecard": {
-      "score": 7.2
+      "score": 7.1
     },
     "vulns": {
       "count": 1,
       "max_severity": null
     },
     "maintenance": {
-      "last_release_days": 18,
+      "last_release_days": 25,
       "last_commit_days": 0,
       "releases_past_year": 7
     },
     "bus_factor": {
-      "top_share": 0.19836358635863585,
+      "top_share": 0.19914876089791997,
       "contributors": 100
     },
     "github": {
-      "stars": 49503,
-      "forks": 20248,
-      "open_issues": 2844,
-      "watchers": 1135,
+      "stars": 49504,
+      "forks": 20271,
+      "open_issues": 2814,
+      "watchers": 1128,
       "archived": false,
       "created_at": "2010-08-24T01:37:33Z",
-      "pushed_at": "2026-08-10T03:01:32Z",
+      "pushed_at": "2026-08-16T23:23:10Z",
       "default_branch": "main",
       "topics": [
         "alignment",
@@ -54,8 +54,8 @@
       "spdx_id": "non-standard"
     },
     "downloads": {
-      "last_month": 769401215,
-      "source": "ecosyste.ms"
+      "last_month": 775499083,
+      "source": "pypistats.org"
     }
   },
   "signal": {
@@ -68,8 +68,8 @@
         "key": "security_posture",
         "label": "Security posture",
         "weight": 0.25,
-        "value": 28,
-        "evidence": "OpenSSF Scorecard 7.2/10 → inverted to 28/100 risk",
+        "value": 29,
+        "evidence": "OpenSSF Scorecard 7.1/10 → inverted to 29/100 risk",
         "source": "OpenSSF Scorecard (via deps.dev)",
         "confidence": "high"
       },
@@ -86,8 +86,8 @@
         "key": "maintenance",
         "label": "Maintenance / activity",
         "weight": 0.2,
-        "value": 9.6,
-        "evidence": "18d since last release, 0d since last commit, 7 releases in the past year",
+        "value": 10.2,
+        "evidence": "25d since last release, 0d since last commit, 7 releases in the past year",
         "source": "ecosyste.ms / GitHub",
         "confidence": "high"
       },
@@ -111,5 +111,5 @@
       }
     ]
   },
-  "summary": "pandas carries an exploratory health/risk signal of 27/100 (Low; health 73/100), calculated from 100% available source coverage. Security posture: OpenSSF Scorecard 7.2/10 → inverted to 28/100 risk. Vulnerabilities: 1 package advisory across versions in OSV (max severity unknown). Maintenance: 18d since last release, 0d since last commit, 7 releases in the past year. non-standard (unrecognized) → unknown obligations. This is an exploratory signal from public open-source metadata — not a security audit, a certification, or an endorsement of the project."
+  "summary": "pandas carries an exploratory health/risk signal of 27/100 (Low; health 73/100), calculated from 100% available source coverage. Security posture: OpenSSF Scorecard 7.1/10 → inverted to 29/100 risk. Vulnerabilities: 1 package advisory across versions in OSV (max severity unknown). Maintenance: 25d since last release, 0d since last commit, 7 releases in the past year. non-standard (unrecognized) → unknown obligations. This is an exploratory signal from public open-source metadata — not a security audit, a certification, or an endorsement of the project."
 }

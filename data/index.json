@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-10",
+  "generated": "2026-08-17",
   "data_source": "live",
   "note": "Live snapshot from public open-source APIs (deps.dev, OSV.dev, ecosyste.ms, GitHub, npm/PyPI, SPDX/OpenSSF). Signals are exploratory, not verdicts.",
   "packages": [
@@ -9,8 +9,8 @@
       "name": "lodash",
       "ecosystem": "npm",
       "repo": "lodash/lodash",
-      "signal_score": 50,
-      "health_score": 50,
+      "signal_score": 51,
+      "health_score": 49,
       "signal_band": "Elevated"
     },
     {
@@ -39,16 +39,6 @@
       "name": "chalk",
       "ecosystem": "npm",
       "repo": "chalk/chalk",
-      "signal_score": 36,
-      "health_score": 64,
-      "signal_band": "Moderate"
-    },
-    {
-      "slug": "numpy",
-      "display_name": "numpy",
-      "name": "numpy",
-      "ecosystem": "pypi",
-      "repo": "numpy/numpy",
       "signal_score": 36,
       "health_score": 64,
       "signal_band": "Moderate"
@@ -84,6 +74,16 @@
       "signal_band": "Moderate"
     },
     {
+      "slug": "numpy",
+      "display_name": "numpy",
+      "name": "numpy",
+      "ecosystem": "pypi",
+      "repo": "numpy/numpy",
+      "signal_score": 33,
+      "health_score": 67,
+      "signal_band": "Moderate"
+    },
+    {
       "slug": "express",
       "display_name": "express",
       "name": "express",
@@ -99,8 +99,8 @@
       "name": "vite",
       "ecosystem": "npm",
       "repo": "vitejs/vite",
-      "signal_score": 31,
-      "health_score": 69,
+      "signal_score": 30,
+      "health_score": 70,
       "signal_band": "Moderate"
     },
     {
@@ -111,16 +111,6 @@
       "repo": "psf/requests",
       "signal_score": 29,
       "health_score": 71,
-      "signal_band": "Low"
-    },
-    {
-      "slug": "react",
-      "display_name": "react",
-      "name": "react",
-      "ecosystem": "npm",
-      "repo": "facebook/react",
-      "signal_score": 27,
-      "health_score": 73,
       "signal_band": "Low"
     },
     {
@@ -141,6 +131,16 @@
       "repo": "axios/axios",
       "signal_score": 26,
       "health_score": 74,
+      "signal_band": "Low"
+    },
+    {
+      "slug": "react",
+      "display_name": "react",
+      "name": "react",
+      "ecosystem": "npm",
+      "repo": "facebook/react",
+      "signal_score": 23,
+      "health_score": 77,
       "signal_band": "Low"
     }
   ]
