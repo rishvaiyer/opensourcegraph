@@ -50,8 +50,7 @@ health reading is simply `100 − risk`, which the UI also surfaces.
 
 ## Architecture
 
-A deliberately small, static, dependency-free app — same shape as the rest of
-the portfolio (see `complaintgraph/`):
+A deliberately small, static, dependency-free app:
 
 ```
 opensourcegraph/
@@ -87,7 +86,7 @@ byte-for-byte the same shape:
   bus-factor; `lodash` is elevated by staleness and a known advisory). Clearly
   labeled `SAMPLE` in the UI badge.
 - **Live** (`npm run ingest`) — pulls real metadata from the public APIs below.
-  The ingest is **bounded** exactly like ComplaintGraph's CFPB ingest: every
+  The ingest is **bounded**: every
   request has an `AbortController` timeout, the whole run has a wall-clock
   budget, and it only writes to disk if **every** package succeeds. Any failure
   (slow API, offline sandbox, rate limit) logs and leaves the committed sample
@@ -134,17 +133,6 @@ All public, open, and key-free (GITHUB_TOKEN is optional, rate-limit only):
   — license ids classified locally; Scorecard scores read via deps.dev.
 
 No OAuth, no scraping, no personal data.
-
----
-
-## How it plugs into the portfolio
-
-OpenSourceGraph is a sibling of `complaintgraph/` under the same unEvilGenius
-Labs umbrella: same static, no-backend architecture; same dark visual language
-(Space Grotesk/Space Mono, green accent); same "honest about estimates" ethos —
-a transparent signal explorer that always shows its work and never issues a
-verdict. The root portfolio page links to it like the other projects, and CI
-assembles it under `_site/opensourcegraph/`.
 
 ---
 
